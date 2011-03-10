@@ -1,7 +1,12 @@
-EESchema-DOCLIB  Version 2.0  Date: 3/8/2011 01:01:15 AM
+EESchema-DOCLIB  Version 2.0  Date: 3/10/2011 12:18:19 AM
 #
 $CMP MBED
 D MBED
+$ENDCMP
+#
+$CMP SDCARD
+D Sparkfun micro  SDCARD breakout v14
+K SDCARD
 $ENDCMP
 #
 #End Doc Library
