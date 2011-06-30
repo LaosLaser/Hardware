@@ -1,586 +1,468 @@
-# EESchema Netlist Version 1.1 created  3/9/2011 09:25:47 PM
+# EESchema Netlist Version 1.1 created  Sun 26 Jun 2011 01:31:39 PM CEST
 (
- ( /4D7533FF C1 C1 1000uF
-  ( 1 GND )
-  ( 2 /VMOT )
- )
- ( /4D75337D C1 C2 100nF
-  ( 1 3V3 )
-  ( 2 GND )
- )
- ( /4D753388 C1 C3 100nF
-  ( 1 N-000086 )
-  ( 2 GND )
- )
- ( /4D75338E C1 C4 100nF
-  ( 1 N-000101 )
-  ( 2 GND )
- )
- ( /4D757949 C1 C5 0.33uF
-  ( 1 N-000112 )
-  ( 2 GND )
- )
- ( /4D754224 C1 C5 100nF
-  ( 1 3V3 )
-  ( 2 GND )
- )
- ( /4D75783E C1 C6 0.1uF
-  ( 1 +5VD )
-  ( 2 GND )
- )
- ( /4D31C3B6 DIP-40__1000 mbed1 MBED
-  ( 1 GND )
-  ( 2 +5VD )
-  ( 3 ? )
-  ( 4 ? )
-  ( 5 N-000069 )
-  ( 6 N-000083 )
-  ( 7 N-000070 )
-  ( 8 N-000038 )
-  ( 9 N-000015 )
-  ( 10 N-000016 )
-  ( 11 N-000074 )
-  ( 12 N-000075 )
-  ( 13 N-000106 )
-  ( 14 N-000058 )
-  ( 15 N-000060 )
-  ( 16 N-000105 )
-  ( 17 N-000061 )
-  ( 18 N-000004 )
-  ( 19 N-000107 )
-  ( 20 N-000071 )
-  ( 21 N-000037 )
-  ( 22 N-000033 )
-  ( 23 N-000070 )
-  ( 24 N-000099 )
-  ( 25 N-000055 )
-  ( 26 N-000056 )
-  ( 27 N-000062 )
-  ( 28 N-000064 )
-  ( 29 N-000040 )
-  ( 30 N-000072 )
-  ( 31 N-000076 )
-  ( 32 N-000077 )
-  ( 33 N-000102 )
-  ( 34 N-000059 )
-  ( 35 N-000104 )
-  ( 36 N-000100 )
-  ( 37 ? )
-  ( 38 ? )
-  ( 39 +5V )
-  ( 40 ? )
- )
- ( /4D754747 optocoupler-2-SO-4 OC1 TLP181
-  ( 1 N-000003 )
-  ( 2 N-000083 )
-  ( 3 ? )
-  ( 4 ? )
- )
- ( /4D754764 optocoupler-2-SO-4 OC2 TLP181
-  ( 1 N-000002 )
-  ( 2 N-000069 )
-  ( 3 N-000081 )
-  ( 4 N-000082 )
- )
- ( /4D756872 optocoupler-2-SO-4 OC3 TLP181
-  ( 1 N-000036 )
-  ( 2 N-000037 )
-  ( 3 N-000031 )
-  ( 4 N-000110 )
- )
- ( /4D756873 optocoupler-2-SO-4 OC4 TLP181
-  ( 1 N-000032 )
-  ( 2 N-000033 )
-  ( 3 ? )
-  ( 4 N-000035 )
- )
- ( /4D7567C1 optocoupler-2-SO-4 OC5 TLP181
-  ( 1 N-000050 )
-  ( 2 N-000108 )
-  ( 3 GND )
-  ( 4 N-000061 )
- )
- ( /4D7567C0 optocoupler-2-SO-4 OC6 TLP181
-  ( 1 N-000051 )
-  ( 2 N-000042 )
-  ( 3 GND )
-  ( 4 N-000038 )
- )
- ( /4D75594F optocoupler-2-SO-4 OC7 TLP181
-  ( 1 N-000013 )
-  ( 2 N-000116 )
-  ( 3 GND )
-  ( 4 ? )
- )
- ( /4D75594E optocoupler-2-SO-4 OC8 TLP181
-  ( 1 N-000044 )
-  ( 2 N-000045 )
-  ( 3 GND )
-  ( 4 N-000060 )
- )
- ( /4D753269 SIL-2 P1 POWER
-  ( 1 /VMOT )
-  ( 2 GND )
- )
- ( /4D75309E SIL-4 P2 Z
-  ( 1 N-000095 )
-  ( 2 N-000096 )
-  ( 3 N-000097 )
-  ( 4 N-000098 )
- )
- ( /4D7530A8 SIL-4 P3 Y
-  ( 1 N-000091 )
-  ( 2 N-000092 )
-  ( 3 N-000093 )
-  ( 4 N-000094 )
- )
- ( /4D7530AC SIL-4 P4 X
-  ( 1 N-000087 )
-  ( 2 N-000088 )
-  ( 3 N-000089 )
-  ( 4 N-000090 )
- )
- ( /4D754675 SIL-4 P5 LASER
-  ( 1 ? )
-  ( 2 ? )
-  ( 3 N-000082 )
-  ( 4 N-000081 )
- )
- ( /4D7547DC SIL-4 P7 I2C
-  ( 1 GND )
-  ( 2 N-000016 )
-  ( 3 N-000015 )
-  ( 4 N-000117 )
- )
- ( /4D754FA1 SIL-4 P8 ANALOG
-  ( 1 GND )
-  ( 2 N-000107 )
-  ( 3 N-000004 )
-  ( 4 3V3 )
- )
- ( /4D7547EB SIL-4 P8 CAN
-  ( 1 +5V )
-  ( 2 N-000028 )
-  ( 3 N-000029 )
-  ( 4 GND )
- )
- ( /4D755950 SIL-4 P9 Z_LIMIT
-  ( 1 N-000010 )
-  ( 2 N-000012 )
-  ( 3 N-000014 )
-  ( 4 N-000011 )
- )
- ( /4D7567C2 SIL-4 P10 XY_LIMIT
-  ( 1 N-000052 )
-  ( 2 N-000047 )
-  ( 3 N-000048 )
-  ( 4 N-000049 )
- )
- ( /4D756874 SIL-4 P11 OUTPUTS
-  ( 1 N-000035 )
-  ( 2 ? )
-  ( 3 N-000110 )
-  ( 4 N-000031 )
- )
- ( /4D7577E2 SIL-2 P12 VIN
-  ( 1 GND )
-  ( 2 N-000112 )
- )
- ( /4D757AEA 1pin P? CONN_1
-  ( 1 +5V )
- )
- ( /4D757ACF 1pin P? CONN_1
-  ( 1 +5VD )
- )
- ( /4D754181 R1 R1 470R
-  ( 1 ? )
-  ( 2 N-000078 )
- )
- ( /4D754188 R1 R2 470R
-  ( 1 3V3 )
-  ( 2 N-000080 )
- )
- ( /4D754C73 R1 R3 10K
-  ( 1 N-000017 )
-  ( 2 ? )
- )
- ( /4D754E5E R1 R4 10K
-  ( 1 N-000027 )
-  ( 2 ? )
- )
- ( /4D754EB9 R1 R5 10K
-  ( 1 N-000009 )
-  ( 2 ? )
- )
- ( /4D754FF4 R1 R6 120R
-  ( 1 3V3 )
-  ( 2 N-000003 )
- )
- ( /4D75500C R1 R7 120R
-  ( 1 3V3 )
-  ( 2 N-000002 )
- )
- ( /4D756870 R1 R8 120R
-  ( 1 3V3 )
-  ( 2 N-000036 )
- )
- ( /4D7550B1 R1 R9 2K
-  ( 1 N-000016 )
-  ( 2 N-000117 )
- )
- ( /4D756871 R1 R9 120R
-  ( 1 3V3 )
-  ( 2 N-000032 )
- )
- ( /4D7550D8 R1 R10 2K
-  ( 1 N-000015 )
-  ( 2 N-000117 )
- )
- ( /4D75594D R1 R15 5K
-  ( 1 N-000044 )
-  ( 2 N-000010 )
- )
- ( /4D75594B R1 R16 470R
-  ( 1 N-000045 )
-  ( 2 N-000012 )
- )
- ( /4D75594A R1 R17 5K
-  ( 1 N-000013 )
-  ( 2 N-000014 )
- )
- ( /4D75594C R1 R18 470R
-  ( 1 N-000116 )
-  ( 2 N-000011 )
- )
- ( /4D7567BF R1 R19 5K
-  ( 1 N-000051 )
-  ( 2 N-000052 )
- )
- ( /4D7567BD R1 R20 470R
-  ( 1 N-000042 )
-  ( 2 N-000047 )
- )
- ( /4D7567BC R1 R21 5K
-  ( 1 N-000050 )
-  ( 2 N-000048 )
- )
- ( /4D7567BE R1 R22 470R
-  ( 1 N-000108 )
-  ( 2 N-000049 )
- )
- ( /4D757684 R1 R23 10K
-  ( 1 N-000061 )
-  ( 2 N-000039 )
- )
- ( /4D757682 R1 R24 10K
-  ( 1 N-000038 )
-  ( 2 N-000039 )
- )
- ( /4D75767C R1 R25 10K
-  ( 1 N-000105 )
-  ( 2 N-000039 )
- )
- ( /4D757662 R1 R26 10K
-  ( 1 N-000060 )
-  ( 2 N-000039 )
- )
- ( /4D754C38 1pin SJ1A CONN_1
-  ( 1 N-000021 )
- )
- ( /4D754CD0 1pin SJ1A? CONN_1
-  ( 1 N-000017 )
- )
- ( /4D754D28 1pin SJ1A? CONN_1
-  ( 1 N-000017 )
- )
- ( /4D754D29 1pin SJ1A? CONN_1
-  ( 1 N-000017 )
- )
- ( /4D754D35 1pin SJ1A? CONN_1
-  ( 1 GND )
- )
- ( /4D754EBD 1pin SJ1A? CONN_1
-  ( 1 N-000005 )
- )
- ( /4D754EB8 1pin SJ1A? CONN_1
-  ( 1 N-000009 )
- )
- ( /4D754EB7 1pin SJ1A? CONN_1
-  ( 1 N-000009 )
- )
- ( /4D754EB6 1pin SJ1A? CONN_1
-  ( 1 N-000009 )
- )
- ( /4D754EB5 1pin SJ1A? CONN_1
-  ( 1 GND )
- )
- ( /4D754EB4 1pin SJ1A? CONN_1
-  ( 1 GND )
- )
- ( /4D754EB3 1pin SJ1A? CONN_1
-  ( 1 GND )
- )
- ( /4D754E62 1pin SJ1A? CONN_1
-  ( 1 N-000023 )
- )
- ( /4D754E5D 1pin SJ1A? CONN_1
-  ( 1 N-000027 )
- )
- ( /4D754D40 1pin SJ1A? CONN_1
-  ( 1 GND )
- )
- ( /4D754D43 1pin SJ1A? CONN_1
-  ( 1 GND )
- )
- ( /4D754E58 1pin SJ1A? CONN_1
-  ( 1 GND )
- )
- ( /4D754E59 1pin SJ1A? CONN_1
-  ( 1 GND )
- )
- ( /4D754E5A 1pin SJ1A? CONN_1
-  ( 1 GND )
- )
- ( /4D754E5B 1pin SJ1A? CONN_1
-  ( 1 N-000027 )
- )
- ( /4D754E5C 1pin SJ1A? CONN_1
-  ( 1 N-000027 )
- )
- ( /4D754C48 1pin SJ2A CONN_1
-  ( 1 N-000020 )
- )
- ( /4D754E61 1pin SJ2A? CONN_1
-  ( 1 N-000024 )
- )
- ( /4D754EBC 1pin SJ2A? CONN_1
-  ( 1 N-000006 )
- )
- ( /4D754C4A 1pin SJ3A CONN_1
-  ( 1 N-000019 )
- )
- ( /4D754E60 1pin SJ3A? CONN_1
-  ( 1 N-000025 )
- )
- ( /4D754EBB 1pin SJ3A? CONN_1
-  ( 1 N-000007 )
- )
- ( /4D751E31 DIP-16__300 U1 POLOLU1201
-  ( 1 N-000070 )
-  ( 2 N-000099 )
-  ( 3 N-000054 )
-  ( 4 N-000054 )
-  ( 5 N-000007 )
-  ( 6 N-000006 )
-  ( 7 N-000005 )
-  ( 8 N-000071 )
-  ( 9 /VMOT )
-  ( 10 GND )
-  ( 11 N-000087 )
-  ( 12 N-000088 )
-  ( 13 N-000089 )
-  ( 14 N-000090 )
-  ( 15 N-000101 )
-  ( 16 GND )
- )
- ( /4D751E2E DIP-16__300 U2 POLOLU1201
-  ( 1 N-000055 )
-  ( 2 N-000056 )
-  ( 3 N-000057 )
-  ( 4 N-000057 )
-  ( 5 N-000025 )
-  ( 6 N-000024 )
-  ( 7 N-000023 )
-  ( 8 N-000071 )
-  ( 9 /VMOT )
-  ( 10 GND )
-  ( 11 N-000091 )
-  ( 12 N-000092 )
-  ( 13 N-000093 )
-  ( 14 N-000094 )
-  ( 15 N-000086 )
-  ( 16 GND )
- )
- ( /4D751E28 DIP-16__300 U3 POLOLU1201
-  ( 1 N-000062 )
-  ( 2 N-000064 )
-  ( 3 N-000053 )
-  ( 4 N-000053 )
-  ( 5 N-000019 )
-  ( 6 N-000020 )
-  ( 7 N-000021 )
-  ( 8 N-000071 )
-  ( 9 /VMOT )
-  ( 10 GND )
-  ( 11 N-000095 )
-  ( 12 N-000096 )
-  ( 13 N-000097 )
-  ( 14 N-000098 )
-  ( 15 3V3 )
-  ( 16 GND )
- )
- ( /4D7577AF LM78XX U4 7805
-  ( GND GND )
-  ( VI N-000112 )
-  ( VO +5VD )
- )
- ( /4D77DCAF SIL-7 U5 SDCARD
-  ( 1 N-000058 )
-  ( 2 N-000074 )
-  ( 3 3V3 )
-  ( 4 N-000106 )
-  ( 5 GND )
-  ( 6 N-000075 )
-  ( 7 ? )
- )
- ( /4D7571EA SO8E U6 65HVD251
-  ( 1 N-000040 )
-  ( 2 GND )
-  ( 3 ? )
-  ( 4 N-000072 )
-  ( 5 ? )
-  ( 6 N-000028 )
-  ( 7 N-000029 )
-  ( 8 GND )
- )
- ( /4D753E38 RJ45_TRANSFO U10 MAGJACK
-  ( 1 N-000078 )
-  ( 2 ? )
-  ( 3 N-000080 )
-  ( 4 GND )
-  ( 5 N-000102 )
-  ( 6 3V3 )
-  ( 7 N-000059 )
-  ( 8 N-000104 )
-  ( 9 3V3 )
-  ( 10 N-000100 )
-  ( 11 GND )
- )
- ( /4D754055 con-usb-USB-A-H X1 USB-A-H
-  ( D+ N-000076 )
-  ( D- N-000077 )
-  ( GND GND )
+ ( /4DE7E9DE $noname  R18 100K {Lib=R}
+  (    1 ? )
+  (    2 GND )
+ )
+ ( /4DE7E9C3 $noname  R17 100K {Lib=R}
+  (    1 ? )
+  (    2 GND )
+ )
+ ( /4DE7E837 $noname  R16 100K {Lib=R}
+  (    1 ? )
+  (    2 GND )
+ )
+ ( /4D780ADE $noname  C1 100nF {Lib=C}
+  (    1 N-000144 )
+  (    2 N-000103 )
+ )
+ ( /4D7567BE $noname  R6 470R {Lib=R}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /4D77FEA2 $noname  P5 XYLIMIT {Lib=CONN_4}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /4D75594B $noname  R4 470R {Lib=R}
+  (    1 N-000002 )
+  (    2 ? )
+ )
+ ( /4D75594E optocoupler-2-SO-4  OC1 TLP181 {Lib=TLP181}
+  (    1 N-000004 )
+  (    2 N-000152 )
+  (    3 GND )
+  (    4 N-000053 )
+ )
+ ( /4D77FD7A $noname  P4 ZLIMIT {Lib=CONN_4}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /4D77FADF $noname  P11 CONN_1 {Lib=CONN_1}
+  (    1 N-000143 )
+ )
+ ( /4D77FADE $noname  P10 CONN_1 {Lib=CONN_1}
+  (    1 +5VD )
+ )
+ ( /4D77F76F $noname  P18 CONN_1 {Lib=CONN_1}
+  (    1 VAA )
+ )
+ ( /4D77F76E $noname  P19 CONN_1 {Lib=CONN_1}
+  (    1 /VMOT )
+ )
+ ( /4D77F532 $noname  P9 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4D77F531 $noname  P8 CONN_1 {Lib=CONN_1}
+  (    1 N-000152 )
+ )
+ ( /4D77F457 $noname  P6 CONN_1 {Lib=CONN_1}
+  (    1 VAA )
+ )
+ ( /4D77F456 $noname  P7 CONN_1 {Lib=CONN_1}
+  (    1 N-000143 )
+ )
+ ( /4D77EC9D $noname  P13 CONN_1 {Lib=CONN_1}
+  (    1 N-000086 )
+ )
+ ( /4D77EC9C $noname  P14 CONN_1 {Lib=CONN_1}
+  (    1 +5V )
+ )
+ ( /4D77EA62 $noname  P3 Vsensor {Lib=CONN_2}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /4D77DCAF $noname  U1 SDCARD {Lib=SDCARD}
+  (    1 ? )
+  (    2 N-000033 )
+  (    3 N-000145 )
+  (    4 3V3 )
+  (    5 N-000151 )
+  (    6 GND )
+  (    7 N-000096 )
+  (    8 ? )
+ )
+ ( /4D757AEA $noname  P16 CONN_1 {Lib=CONN_1}
+  (    1 +5V )
+ )
+ ( /4D757ACF $noname  P15 CONN_1 {Lib=CONN_1}
+  (    1 +5VD )
+ )
+ ( /4D757949 $noname  C3 0.33uF {Lib=C}
+  (    1 VAA )
+  (    2 GND )
+ )
+ ( /4D75783E $noname  C4 0.1uF {Lib=C}
+  (    1 +5VD )
+  (    2 GND )
+ )
+ ( /4D7577E2 $noname  P12 VIN {Lib=CONN_2}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /4D7577AF $noname  U3 7805 {Lib=7805}
+  (  GND GND )
+  (   VI VAA )
+  (   VO +5VD )
+ )
+ ( /4D757684 $noname  R9 10K {Lib=R}
+  (    1 N-000146 )
+  (    2 N-000052 )
+ )
+ ( /4D757682 $noname  R10 10K {Lib=R}
+  (    1 N-000051 )
+  (    2 N-000052 )
+ )
+ ( /4D75767C $noname  R11 10K {Lib=R}
+  (    1 N-000149 )
+  (    2 N-000052 )
+ )
+ ( /4D757662 $noname  R12 10K {Lib=R}
+  (    1 N-000053 )
+  (    2 N-000052 )
+ )
+ ( /4D7571EA $noname  U4 65HVD251 {Lib=65HVD251}
+  (    1 N-000041 )
+  (    2 GND )
+  (    3 ? )
+  (    4 N-000094 )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 GND )
+ )
+ ( /4D754181 $noname  R7 470R {Lib=R}
+  (    1 ? )
+  (    2 N-000134 )
+ )
+ ( /4D756874 $noname  P24 OUTPUTS {Lib=CONN_4}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /4D756873 optocoupler-2-SO-4  OC5 TLP181 {Lib=TLP181}
+  (    1 N-000009 )
+  (    2 N-000010 )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /4D756872 optocoupler-2-SO-4  OC6 TLP181 {Lib=TLP181}
+  (    1 N-000013 )
+  (    2 N-000014 )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /4D756871 $noname  R19 120R {Lib=R}
+  (    1 3V3 )
+  (    2 N-000009 )
+ )
+ ( /4D756870 $noname  R20 120R {Lib=R}
+  (    1 3V3 )
+  (    2 N-000013 )
+ )
+ ( /4D7567C1 optocoupler-2-SO-4  OC4 TLP181 {Lib=TLP181}
+  (    1 ? )
+  (    2 N-000152 )
+  (    3 GND )
+  (    4 N-000146 )
+ )
+ ( /4D7567C0 optocoupler-2-SO-4  OC3 TLP181 {Lib=TLP181}
+  (    1 N-000017 )
+  (    2 N-000152 )
+  (    3 GND )
+  (    4 N-000051 )
+ )
+ ( /4D7567BD $noname  R5 470R {Lib=R}
+  (    1 N-000017 )
+  (    2 ? )
+ )
+ ( /4D75594F optocoupler-2-SO-4  OC2 TLP181 {Lib=TLP181}
+  (    1 N-000002 )
+  (    2 N-000152 )
+  (    3 GND )
+  (    4 ? )
+ )
+ ( /4D75594C $noname  R3 470R {Lib=R}
+  (    1 N-000004 )
+  (    2 ? )
+ )
+ ( /4D7550D8 $noname  R2 2K {Lib=R}
+  (    1 N-000006 )
+  (    2 +5V )
+ )
+ ( /4D7550B1 $noname  R1 2K {Lib=R}
+  (    1 N-000007 )
+  (    2 +5V )
+ )
+ ( /4D75500C $noname  R22 120R {Lib=R}
+  (    1 3V3 )
+  (    2 N-000023 )
+ )
+ ( /4D754FF4 $noname  R21 120R {Lib=R}
+  (    1 3V3 )
+  (    2 N-000024 )
+ )
+ ( /4D754FA1 $noname  P2 ANALOG {Lib=CONN_4}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /4D754EBD $noname  SJ1A12 CONN_1 {Lib=CONN_1}
+  (    1 N-000070 )
+ )
+ ( /4D754EBC $noname  SJ2A3 CONN_1 {Lib=CONN_1}
+  (    1 N-000069 )
+ )
+ ( /4D754EBB $noname  SJ3A3 CONN_1 {Lib=CONN_1}
+  (    1 N-000068 )
+ )
+ ( /4D754EB9 $noname  R15 10K {Lib=R}
+  (    1 N-000019 )
+  (    2 ? )
+ )
+ ( /4D754EB8 $noname  SJ1A7 CONN_1 {Lib=CONN_1}
+  (    1 N-000019 )
+ )
+ ( /4D754EB7 $noname  SJ1A8 CONN_1 {Lib=CONN_1}
+  (    1 N-000019 )
+ )
+ ( /4D754EB6 $noname  SJ1A9 CONN_1 {Lib=CONN_1}
+  (    1 N-000019 )
+ )
+ ( /4D754E62 $noname  SJ1A11 CONN_1 {Lib=CONN_1}
+  (    1 N-000055 )
+ )
+ ( /4D754E61 $noname  SJ2A2 CONN_1 {Lib=CONN_1}
+  (    1 N-000054 )
+ )
+ ( /4D754E60 $noname  SJ3A2 CONN_1 {Lib=CONN_1}
+  (    1 N-000079 )
+ )
+ ( /4D754E5E $noname  R14 10K {Lib=R}
+  (    1 N-000021 )
+  (    2 ? )
+ )
+ ( /4D754E5D $noname  SJ1A4 CONN_1 {Lib=CONN_1}
+  (    1 N-000021 )
+ )
+ ( /4D754E5C $noname  SJ1A5 CONN_1 {Lib=CONN_1}
+  (    1 N-000021 )
+ )
+ ( /4D754E5B $noname  SJ1A6 CONN_1 {Lib=CONN_1}
+  (    1 N-000021 )
+ )
+ ( /4D754D29 $noname  SJ1A3 CONN_1 {Lib=CONN_1}
+  (    1 N-000022 )
+ )
+ ( /4D754D28 $noname  SJ1A2 CONN_1 {Lib=CONN_1}
+  (    1 N-000022 )
+ )
+ ( /4D754CD0 $noname  SJ1A1 CONN_1 {Lib=CONN_1}
+  (    1 N-000022 )
+ )
+ ( /4D754C73 $noname  R13 10K {Lib=R}
+  (    1 N-000022 )
+  (    2 ? )
+ )
+ ( /4D754C4A $noname  SJ3A1 CONN_1 {Lib=CONN_1}
+  (    1 N-000105 )
+ )
+ ( /4D754C48 $noname  SJ2A1 CONN_1 {Lib=CONN_1}
+  (    1 N-000106 )
+ )
+ ( /4D754C38 $noname  SJ1A10 CONN_1 {Lib=CONN_1}
+  (    1 N-000107 )
+ )
+ ( /4D7547EB $noname  P17 CAN {Lib=CONN_4}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /4D7547DC $noname  P1 I2C {Lib=CONN_4}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /4D754764 optocoupler-2-SO-4  OC8 TLP181 {Lib=TLP181}
+  (    1 N-000023 )
+  (    2 N-000093 )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /4D754747 optocoupler-2-SO-4  OC7 TLP181 {Lib=TLP181}
+  (    1 N-000024 )
+  (    2 N-000117 )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /4D754675 $noname  P25 LASER {Lib=CONN_4}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /4D754224 $noname  C2 100nF {Lib=C}
+  (    1 N-000103 )
+  (    2 GND )
+ )
+ ( /4D754188 $noname  R8 470R {Lib=R}
+  (    1 3V3 )
+  (    2 N-000135 )
+ )
+ ( /4D754055 con-usb-USB-A-H  X1 USB-A-H {Lib=USB-A-H}
+  (   D+ N-000132 )
+  (   D- N-000133 )
+  (  GND GND )
   ( VBUS +5V )
+ )
+ ( /4D753E38 $noname  U2 MAGJACK {Lib=MAGJACK}
+  (    1 N-000140 )
+  (    2 3V3 )
+  (    3 N-000080 )
+  (    4 N-000141 )
+  (    5 3V3 )
+  (    6 N-000081 )
+  (    8 N-000144 )
+  (   GA N-000134 )
+  (   GK ? )
+  (   SH N-000144 )
+  (   YA N-000135 )
+  (   YK N-000056 )
+ )
+ ( /4D7533FF $noname  C5 1000uF {Lib=C}
+  (    1 GND )
+  (    2 /VMOT )
+ )
+ ( /4D753269 $noname  P20 POWER {Lib=CONN_2}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /4D7530AC $noname  P23 X {Lib=CONN_4}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /4D7530A8 $noname  P22 Y {Lib=CONN_4}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /4D75309E $noname  P21 Z {Lib=CONN_4}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /4D751E31 $noname  U7 POLOLU1201 {Lib=POLOLU1201}
+  (    1 N-000065 )
+  (    2 N-000066 )
+  (    3 N-000067 )
+  (    4 N-000067 )
+  (    5 N-000068 )
+  (    6 N-000069 )
+  (    7 N-000070 )
+  (    8 N-000056 )
+  (    9 /VMOT )
+  (   10 GND )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 GND )
+ )
+ ( /4D751E2E $noname  U6 POLOLU1201 {Lib=POLOLU1201}
+  (    1 N-000076 )
+  (    2 N-000077 )
+  (    3 N-000078 )
+  (    4 N-000078 )
+  (    5 N-000079 )
+  (    6 N-000054 )
+  (    7 N-000055 )
+  (    8 N-000056 )
+  (    9 /VMOT )
+  (   10 GND )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 GND )
+ )
+ ( /4D751E28 $noname  U5 POLOLU1201 {Lib=POLOLU1201}
+  (    1 N-000082 )
+  (    2 N-000084 )
+  (    3 N-000062 )
+  (    4 N-000062 )
+  (    5 N-000105 )
+  (    6 N-000106 )
+  (    7 N-000107 )
+  (    8 N-000056 )
+  (    9 /VMOT )
+  (   10 GND )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 3V3 )
+  (   16 GND )
+ )
+ ( /4D31C3B6 $noname  mbed1 MBED {Lib=MBED}
+  (    1 GND )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 N-000093 )
+  (    6 N-000117 )
+  (    7 N-000066 )
+  (    8 N-000051 )
+  (    9 N-000006 )
+  (   10 N-000007 )
+  (   11 N-000145 )
+  (   12 N-000096 )
+  (   13 N-000151 )
+  (   14 N-000033 )
+  (   15 N-000053 )
+  (   16 N-000149 )
+  (   17 ? )
+  (   18 ? )
+  (   19 N-000146 )
+  (   20 N-000056 )
+  (   21 N-000014 )
+  (   22 N-000010 )
+  (   23 N-000065 )
+  (   24 N-000066 )
+  (   25 N-000076 )
+  (   26 N-000077 )
+  (   27 N-000082 )
+  (   28 N-000084 )
+  (   29 N-000041 )
+  (   30 N-000094 )
+  (   31 N-000132 )
+  (   32 N-000133 )
+  (   33 N-000140 )
+  (   34 N-000080 )
+  (   35 N-000141 )
+  (   36 N-000081 )
+  (   37 ? )
+  (   38 ? )
+  (   39 N-000086 )
+  (   40 ? )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
- SM*
- C?
- C1-1
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R6
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R7
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R8
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R9
- R?
- SM0603
- SM0805
- R?-*
- SM1206
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R10
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R15
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R16
+$component R18
  R?
  SM0603
  SM0805
@@ -594,7 +476,71 @@ $component R17
  R?-*
  SM1206
 $endlist
-$component R18
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
  R?
  SM0603
  SM0805
@@ -615,7 +561,28 @@ $component R20
  R?-*
  SM1206
 $endlist
-$component R21
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
  R?
  SM0603
  SM0805
@@ -629,33 +596,306 @@ $component R22
  R?-*
  SM1206
 $endlist
-$component R23
+$component R21
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R24
+$component R15
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R25
+$component R14
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R26
+$component R13
  R?
  SM0603
  SM0805
  R?-*
  SM1206
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
 $endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ U1 6
+ U5 16
+ mbed1 1
+ C2 2
+ R18 2
+ U4 2
+ U4 8
+ C3 2
+ C4 2
+ U3 GND
+ U6 10
+ U6 16
+ P9 1
+ U5 10
+ U7 10
+ U7 16
+ OC4 3
+ R17 2
+ OC2 3
+ OC3 3
+ OC1 3
+ C5 1
+ X1 GND
+ R16 2
+Net 2 "" ""
+ R4 1
+ OC2 1
+Net 4 "" ""
+ R3 1
+ OC1 1
+Net 6 "" ""
+ mbed1 9
+ R2 1
+Net 7 "" ""
+ mbed1 10
+ R1 1
+Net 9 "" ""
+ R19 2
+ OC5 1
+Net 10 "" ""
+ mbed1 22
+ OC5 2
+Net 13 "" ""
+ R20 2
+ OC6 1
+Net 14 "" ""
+ mbed1 21
+ OC6 2
+Net 15 "3V3" "3V3"
+ U2 5
+ R21 1
+ U1 4
+ U5 15
+ U2 2
+ R19 1
+ R20 1
+ R8 1
+ R22 1
+Net 17 "" ""
+ R5 1
+ OC3 1
+Net 19 "" ""
+ SJ1A8 1
+ SJ1A7 1
+ R15 1
+ SJ1A9 1
+Net 21 "" ""
+ R14 1
+ SJ1A6 1
+ SJ1A5 1
+ SJ1A4 1
+Net 22 "" ""
+ R13 1
+ SJ1A3 1
+ SJ1A2 1
+ SJ1A1 1
+Net 23 "" ""
+ OC8 1
+ R22 2
+Net 24 "" ""
+ R21 2
+ OC7 1
+Net 29 "+5VD" "+5VD"
+ P10 1
+ U3 VO
+ C4 1
+ P15 1
+Net 33 "" ""
+ mbed1 14
+ U1 2
+Net 35 "+5V" "+5V"
+ R1 2
+ R2 2
+ P16 1
+ P14 1
+ X1 VBUS
+Net 40 "VAA" "VAA"
+ P18 1
+ C3 1
+ U3 VI
+ P6 1
+Net 41 "" ""
+ U4 1
+ mbed1 29
+Net 51 "" ""
+ R10 1
+ OC3 4
+ mbed1 8
+Net 52 "" ""
+ R12 2
+ R11 2
+ R10 2
+ R9 2
+Net 53 "" ""
+ R12 1
+ OC1 4
+ mbed1 15
+Net 54 "" ""
+ U6 6
+ SJ2A2 1
+Net 55 "" ""
+ SJ1A11 1
+ U6 7
+Net 56 "" ""
+ mbed1 20
+ U5 8
+ U7 8
+ U2 YK
+ U6 8
+Net 62 "" ""
+ U5 4
+ U5 3
+Net 65 "" ""
+ U7 1
+ mbed1 23
+Net 66 "" ""
+ mbed1 24
+ mbed1 7
+ U7 2
+Net 67 "" ""
+ U7 4
+ U7 3
+Net 68 "" ""
+ U7 5
+ SJ3A3 1
+Net 69 "" ""
+ U7 6
+ SJ2A3 1
+Net 70 "" ""
+ U7 7
+ SJ1A12 1
+Net 76 "" ""
+ mbed1 25
+ U6 1
+Net 77 "" ""
+ mbed1 26
+ U6 2
+Net 78 "" ""
+ U6 3
+ U6 4
+Net 79 "" ""
+ U6 5
+ SJ3A2 1
+Net 80 "" ""
+ mbed1 34
+ U2 3
+Net 81 "" ""
+ U2 6
+ mbed1 36
+Net 82 "" ""
+ mbed1 27
+ U5 1
+Net 84 "" ""
+ mbed1 28
+ U5 2
+Net 86 "" ""
+ mbed1 39
+ P13 1
+Net 93 "" ""
+ OC8 2
+ mbed1 5
+Net 94 "" ""
+ mbed1 30
+ U4 4
+Net 96 "" ""
+ mbed1 12
+ U1 7
+Net 103 "" ""
+ C1 2
+ C2 1
+Net 105 "" ""
+ U5 5
+ SJ3A1 1
+Net 106 "" ""
+ SJ2A1 1
+ U5 6
+Net 107 "" ""
+ U5 7
+ SJ1A10 1
+Net 117 "" ""
+ mbed1 6
+ OC7 2
+Net 118 "/VMOT" "VMOT"
+ U6 9
+ U5 9
+ U7 9
+ C5 2
+ P19 1
+Net 132 "" ""
+ mbed1 31
+ X1 D+
+Net 133 "" ""
+ X1 D-
+ mbed1 32
+Net 134 "" ""
+ R7 2
+ U2 GA
+Net 135 "" ""
+ R8 2
+ U2 YA
+Net 140 "" ""
+ mbed1 33
+ U2 1
+Net 141 "" ""
+ U2 4
+ mbed1 35
+Net 143 "" ""
+ P11 1
+ P7 1
+Net 144 "" ""
+ U2 8
+ U2 SH
+ C1 1
+Net 145 "" ""
+ mbed1 11
+ U1 3
+Net 146 "" ""
+ OC4 4
+ mbed1 19
+ R9 1
+Net 149 "" ""
+ R11 1
+ mbed1 16
+Net 151 "" ""
+ U1 5
+ mbed1 13
+Net 152 "" ""
+ P8 1
+ OC4 2
+ OC2 2
+ OC3 2
+ OC1 2
+}
+#End

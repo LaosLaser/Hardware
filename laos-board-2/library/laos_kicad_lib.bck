@@ -1,0 +1,37 @@
+EESchema-DOCLIB  Version 2.0  Date: Fri 01 Jul 2011 12:44:45 AM CEST
+#
+$CMP 7805
+D Linear Regulator +5V
+K POWER REGUL
+F datasheets/regulator-3term-pos-ts7800-series.pdf
+$ENDCMP
+#
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP LM7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP MAGJACK
+D Sparkfun micro  SDCARD breakout v14
+K SDCARD
+$ENDCMP
+#
+$CMP SDCARD
+D Sparkfun micro  SDCARD breakout v14
+K SDCARD
+$ENDCMP
+#
+#End Doc Library
