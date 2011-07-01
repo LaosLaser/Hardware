@@ -1,5 +1,39 @@
-update=Fri 01 Jul 2011 12:29:25 AM CEST
+update=Fri 01 Jul 2011 03:06:01 PM CEST
 last_client=eeschema
+[pcbnew]
+version=1
+PadDrlX=320
+PadDimH=600
+PadDimV=600
+BoardThickness=630
+TxtPcbV=800
+TxtPcbH=600
+TxtModV=600
+TxtModH=600
+TxtModW=120
+VEgarde=100
+DrawLar=150
+EdgeLar=150
+TxtLar=120
+MSegLar=150
+LastNetListRead=
+[pcbnew/libraries]
+LibDir=
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=valves
+LibName9=led
+LibName10=dip_sockets
+LibName11=/home/jerry/Projects/laoslaser/laos/hardware/pcb/laos-board/libraries/con-usb
+LibName12=/home/jerry/Projects/laoslaser/laos/hardware/pcb/laos-board/libraries/con-usb-2
+LibName13=/home/jerry/Projects/laoslaser/laos/hardware/pcb/laos-board/libraries/con-usb-3
+LibName14=/home/jerry/Projects/laoslaser/laos/hardware/pcb/laos-board/libraries/optocoupler
+LibName15=/home/jerry/Projects/laoslaser/laos/hardware/pcb/laos-board/libraries/optocoupler-2
 [eeschema]
 version=1
 LibDir=library
@@ -33,3 +67,5 @@ RptLab=1
 LabSize=60
 [eeschema/libraries]
 LibName1=laos_kicad_lib
+LibName2=/home/jerry/Projects/kicad/library/library/device
+LibName3=/home/jerry/Projects/kicad/kicad-newlib/library/conn

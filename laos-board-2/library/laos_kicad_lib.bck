@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Fri 01 Jul 2011 12:44:45 AM CEST
+EESchema-DOCLIB  Version 2.0  Date: Fri 01 Jul 2011 03:08:22 PM CEST
 #
 $CMP 7805
 D Linear Regulator +5V
@@ -10,6 +10,10 @@ $CMP 78L05
 D Linear Regulator +5V
 K POWER REGUL
 F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP LED
+K LED
 $ENDCMP
 #
 $CMP LM7805
