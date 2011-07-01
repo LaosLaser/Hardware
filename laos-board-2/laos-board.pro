@@ -1,4 +1,4 @@
-update=Fri 01 Jul 2011 05:40:13 PM CEST
+update=Fri 01 Jul 2011 07:00:04 PM CEST
 last_client=eeschema
 [pcbnew]
 version=1
@@ -67,5 +67,3 @@ RptLab=1
 LabSize=60
 [eeschema/libraries]
 LibName1=laos_kicad_lib
-LibName2=/home/jerry/Projects/kicad/library/library/device
-LibName3=/home/jerry/Projects/kicad/kicad-newlib/library/conn
