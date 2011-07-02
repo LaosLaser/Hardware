@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 01 Jul 2011 08:36:33 PM CEST
+EESchema Schematic File Version 2  date Fri 01 Jul 2011 08:37:51 PM CEST
 LIBS:laos_kicad_lib
 LIBS:laos-board-cache
 EELAYER 25  0
@@ -904,10 +904,10 @@ $Comp
 L JP3 J28
 U 1 1 4E0E12DD
 P 2550 7450
-F 0 "J28" V 2610 7600 60  0000 C CNN
-F 1 "JP3" V 2460 7600 60  0000 C CNN
+F 0 "J28" V 2490 7600 60  0000 C CNN
+F 1 "JP3" V 2620 7610 60  0001 C CNN
 	1    2550 7450
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L R R1
