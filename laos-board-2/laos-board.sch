@@ -1,5 +1,44 @@
-EESchema Schematic File Version 2  date Sat 02 Jul 2011 03:50:09 PM CEST
+EESchema Schematic File Version 2  date Wed 06 Jul 2011 12:54:18 PM CEST
 LIBS:laos_kicad_lib
+LIBS:conn
+LIBS:74xx
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:bjt
+LIBS:can
+LIBS:capacitive
+LIBS:cmos4000
+LIBS:device
+LIBS:digital-audio
+LIBS:digpot
+LIBS:diode
+LIBS:display
+LIBS:fet
+LIBS:figaro
+LIBS:graphic
+LIBS:hc11
+LIBS:i2c
+LIBS:inductive
+LIBS:intel
+LIBS:interface
+LIBS:linear
+LIBS:mech_switch
+LIBS:memory
+LIBS:microchip
+LIBS:opto
+LIBS:periph
+LIBS:power
+LIBS:power_switches
+LIBS:protection
+LIBS:pspice
+LIBS:radio
+LIBS:regul
+LIBS:renesas
+LIBS:resist
+LIBS:supervisor
+LIBS:switcher
+LIBS:video
 LIBS:laos-board-cache
 EELAYER 25  0
 EELAYER END
@@ -7,7 +46,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "LAOS"
-Date "1 jul 2011"
+Date "6 jul 2011"
 Rev "1"
 Comp "http://www.laoslaser.org"
 Comment1 ""
@@ -15,6 +54,44 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 15300 700  0    60   ~ 0
+Mounting holes
+$Comp
+L MOUNT_HOLE H4
+U 1 1 4E1435F8
+P 15900 850
+F 0 "H4" H 15850 800 60  0000 C CNN
+F 1 "MOUNT_HOLE" H 15900 1100 60  0001 C CNN
+	1    15900 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNT_HOLE H3
+U 1 1 4E1435F7
+P 15750 850
+F 0 "H3" H 15700 800 60  0000 C CNN
+F 1 "MOUNT_HOLE" H 15750 1100 60  0001 C CNN
+	1    15750 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNT_HOLE H2
+U 1 1 4E1435F4
+P 15600 850
+F 0 "H2" H 15550 800 60  0000 C CNN
+F 1 "MOUNT_HOLE" H 15600 1100 60  0001 C CNN
+	1    15600 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNT_HOLE H1
+U 1 1 4E1435EA
+P 15450 850
+F 0 "H1" H 15400 800 60  0000 C CNN
+F 1 "MOUNT_HOLE" H 15450 1100 60  0001 C CNN
+	1    15450 850 
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2550 7200 2550 7160
 Wire Wire Line
@@ -965,10 +1042,10 @@ F 2 "T220-3" H 2590 6350 30  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR49
+L GND #PWR51
 U 1 1 4E0DFD98
 P 2200 7250
-F 0 "#PWR49" H 2200 7250 30  0001 C CNN
+F 0 "#PWR51" H 2200 7250 30  0001 C CNN
 F 1 "GND" H 2200 7180 30  0001 C CNN
 	1    2200 7250
 	1    0    0    -1  
@@ -1033,10 +1110,10 @@ F 1 "VAA" H 1650 10385 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR50
+L +5V #PWR49
 U 1 1 4E0DF8E3
 P 2550 7160
-F 0 "#PWR50" H 2550 7250 20  0001 C CNN
+F 0 "#PWR49" H 2550 7250 20  0001 C CNN
 F 1 "+5V" H 2550 7250 30  0000 C CNN
 	1    2550 7160
 	1    0    0    -1  
@@ -2044,10 +2121,10 @@ F 1 "2k" H 9125 10675 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAA #PWR51
+L VAA #PWR50
 U 1 1 4E0B3045
 P 2680 7170
-F 0 "#PWR51" H 2680 7230 30  0001 C CNN
+F 0 "#PWR50" H 2680 7230 30  0001 C CNN
 F 1 "VAA" H 2680 7280 30  0000 C CNN
 	1    2680 7170
 	1    0    0    -1  

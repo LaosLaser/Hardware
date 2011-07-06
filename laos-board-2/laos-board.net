@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sat 02 Jul 2011 08:10:15 PM CEST
+# EESchema Netlist Version 1.1 created  Wed 06 Jul 2011 01:04:15 PM CEST
 (
  ( /4E0B1D13 C_CER C1 100nF
   ( 1 GND )
@@ -44,6 +44,14 @@
   ( 1 N-000025 )
   ( 2 N-000060 )
  )
+ ( /4E1435EA HOLE_3MM H1 MOUNT_HOLE
+ )
+ ( /4E1435F4 HOLE_3MM H2 MOUNT_HOLE
+ )
+ ( /4E1435F7 HOLE_3MM H3 MOUNT_HOLE
+ )
+ ( /4E1435F8 HOLE_3MM H4 MOUNT_HOLE
+ )
  ( /4E0B282E 16DIP300-ELL IC1 KB847
   ( 1 N-000116 )
   ( 2 N-000041 )
@@ -86,7 +94,7 @@
   ( GND GND )
   ( VBUS +5V )
  )
- ( /4E0CF95F Pkg J2 CONN_4
+ ( /4E0CF95F CONN_4 J2 CONN_4
   ( 1 +5V )
   ( 2 N-000103 )
   ( 3 N-000117 )
@@ -110,7 +118,7 @@
   ( YA N-000070 )
   ( YK GND )
  )
- ( /4E0B259F Pkg J5 CONN_2
+ ( /4E0B259F CONN_2 J5 CONN_2
   ( 1 VMOT )
   ( 2 GND )
  )
@@ -144,20 +152,20 @@
   ( 15 GND )
   ( 16 VMOT )
  )
- ( /4E0DE180 Pkg J9 CONN_5
+ ( /4E0DE180 CONN_5 J9 CONN_5
   ( 1 N-000033 )
   ( 2 N-000032 )
   ( 3 N-000102 )
   ( 4 N-000031 )
   ( 5 N-000039 )
  )
- ( /4E0B0C20 Pkg J10 CONN_4
+ ( /4E0B0C20 CONN_4 J10 CONN_4
   ( 1 +5V )
   ( 2 N-000059 )
   ( 3 N-000120 )
   ( 4 GND )
  )
- ( /4E0AF935 $noname$ J11 MBED_NXP
+ ( /4E0AF935 MBED J11 MBED_NXP
   ( 1 GND )
   ( 2 +5VD )
   ( 3 ? )
@@ -211,7 +219,7 @@
   ( 5 N-000102 )
   ( 6 N-000032 )
  )
- ( /4E0CEE9F Pkg J14 CONN_4
+ ( /4E0CEE9F CONN_4 J14 CONN_4
   ( 1 +3V3 )
   ( 2 N-000098 )
   ( 3 N-000099 )
@@ -247,7 +255,7 @@
   ( 15 GND )
   ( 16 VMOT )
  )
- ( /4E0DDF60 Pkg J18 CONN_5
+ ( /4E0DDF60 CONN_5 J18 CONN_5
   ( 1 N-000006 )
   ( 2 N-000094 )
   ( 3 N-000007 )
@@ -296,7 +304,7 @@
   ( 15 GND )
   ( 16 VMOT )
  )
- ( /4E0DDF26 Pkg J24 CONN_5
+ ( /4E0DDF26 CONN_5 J24 CONN_5
   ( 1 N-000014 )
   ( 2 N-000013 )
   ( 3 N-000091 )
@@ -315,7 +323,7 @@
   ( 5 N-000091 )
   ( 6 N-000013 )
  )
- ( /4E0DFD81 Pkg J27 CONN_4
+ ( /4E0DFD81 CONN_4 J27 CONN_4
   ( 1 N-000104 )
   ( 2 N-000118 )
   ( 3 N-000116 )
@@ -326,7 +334,7 @@
   ( 2 N-000116 )
   ( 3 VAA )
  )
- ( /4E0B28C2 Pkg J29 CONN_4
+ ( /4E0B28C2 CONN_4 J29 CONN_4
   ( 1 N-000116 )
   ( 2 N-000052 )
   ( 3 N-000040 )
@@ -362,14 +370,14 @@
   ( 15 GND )
   ( 16 VMOT )
  )
- ( /4E0DC95A Pkg J33 CONN_5
+ ( /4E0DC95A CONN_5 J33 CONN_5
   ( 1 N-000072 )
   ( 2 N-000097 )
   ( 3 N-000073 )
   ( 4 N-000096 )
   ( 5 N-000074 )
  )
- ( /4E0B28EE Pkg J34 CONN_4
+ ( /4E0B28EE CONN_4 J34 CONN_4
   ( 1 N-000116 )
   ( 2 N-000050 )
   ( 3 N-000051 )
@@ -387,17 +395,17 @@
   ( 5 N-000073 )
   ( 6 N-000097 )
  )
- ( /4E0B3171 Pkg J37 CONN_4
+ ( /4E0B3171 CONN_4 J37 CONN_4
   ( 1 N-000079 )
   ( 2 N-000080 )
   ( 3 N-000081 )
   ( 4 N-000047 )
  )
- ( /4E0B0586 Pkg J38 CONN_2
+ ( /4E0B0586 CONN_2 J38 CONN_2
   ( 1 VAA )
   ( 2 N-000060 )
  )
- ( /4E0B31B4 Pkg J39 CONN_4
+ ( /4E0B31B4 CONN_4 J39 CONN_4
   ( 1 N-000077 )
   ( 2 N-000046 )
   ( 3 N-000078 )
@@ -413,135 +421,135 @@
   ( C N-000118 )
   ( E GND )
  )
- ( /4E0E0A39 $noname$ R1 120R
+ ( /4E0E0A39 R4 R1 120R
   ( 1 N-000117 )
   ( 2 N-000103 )
  )
- ( /4E0DC385 $noname$ R2 470R
+ ( /4E0DC385 R4 R2 470R
   ( 1 +3V3 )
   ( 2 N-000071 )
  )
- ( /4E0DC3A9 $noname$ R3 470R
+ ( /4E0DC3A9 R4 R3 470R
   ( 1 +3V3 )
   ( 2 N-000070 )
  )
- ( /4E0DC48C $noname$ R4 10K
+ ( /4E0DC48C R4 R4 10K
   ( 1 N-000069 )
   ( 2 +3V3 )
  )
- ( /4E0DF80E $noname$ R5 10K
+ ( /4E0DF80E R4 R5 10K
   ( 1 N-000027 )
   ( 2 VMOT )
  )
- ( /4E0DE181 $noname$ R6 10K
+ ( /4E0DE181 R4 R6 10K
   ( 1 N-000037 )
   ( 2 +3V3 )
  )
- ( /4E0AEA02 $noname$ R7 2k
+ ( /4E0AEA02 R4 R7 2k
   ( 1 N-000059 )
   ( 2 +5V )
  )
- ( /4E0B0D49 $noname$ R8 2k
+ ( /4E0B0D49 R4 R8 2k
   ( 1 N-000120 )
   ( 2 +5V )
  )
- ( /4E0DE183 $noname$ R9 10K
+ ( /4E0DE183 R4 R9 10K
   ( 1 GND )
   ( 2 N-000036 )
  )
- ( /4E0DBE77 $noname$ R10 10k
+ ( /4E0DBE77 R4 R10 10k
   ( 1 N-000099 )
   ( 2 VMOT )
  )
- ( /4E0DDF5F $noname$ R11 10K
+ ( /4E0DDF5F R4 R11 10K
   ( 1 N-000003 )
   ( 2 +3V3 )
  )
- ( /4E0DBEB5 $noname$ R12 1k
+ ( /4E0DBEB5 R4 R12 1k
   ( 1 GND )
   ( 2 N-000099 )
  )
- ( /4E0DDF5D $noname$ R13 10K
+ ( /4E0DDF5D R4 R13 10K
   ( 1 GND )
   ( 2 N-000106 )
  )
- ( /4E0DDF27 $noname$ R14 10K
+ ( /4E0DDF27 R4 R14 10K
   ( 1 N-000005 )
   ( 2 +3V3 )
  )
- ( /4E0DFE0E $noname$ R15 1k
+ ( /4E0DFE0E R4 R15 1k
   ( 1 N-000086 )
   ( 2 N-000105 )
  )
- ( /4E0DDF29 $noname$ R16 10K
+ ( /4E0DDF29 R4 R16 10K
   ( 1 GND )
   ( 2 N-000004 )
  )
- ( /4E0DFE03 $noname$ R17 1k
+ ( /4E0DFE03 R4 R17 1k
   ( 1 N-000115 )
   ( 2 N-000023 )
  )
- ( /4E0B2CD5 $noname$ R18 10k
+ ( /4E0B2CD5 R4 R18 10k
   ( 1 +3V3 )
   ( 2 N-000049 )
  )
- ( /4E0B2CE4 $noname$ R19 10k
+ ( /4E0B2CE4 R4 R19 10k
   ( 1 +3V3 )
   ( 2 N-000045 )
  )
- ( /4E0DC959 $noname$ R20 10K
+ ( /4E0DC959 R4 R20 10K
   ( 1 N-000068 )
   ( 2 +3V3 )
  )
- ( /4E0B2CEC $noname$ R21 10k
+ ( /4E0B2CEC R4 R21 10k
   ( 1 +3V3 )
   ( 2 N-000048 )
  )
- ( /4E0B2CED $noname$ R22 10k
+ ( /4E0B2CED R4 R22 10k
   ( 1 +3V3 )
   ( 2 N-000119 )
  )
- ( /4E0B2871 $noname$ R23 470R
+ ( /4E0B2871 R4 R23 470R
   ( 1 N-000041 )
   ( 2 N-000052 )
  )
- ( /4E0B287A $noname$ R24 470R
+ ( /4E0B287A R4 R24 470R
   ( 1 N-000042 )
   ( 2 N-000040 )
  )
- ( /4E0DC957 $noname$ R25 10K
+ ( /4E0DC957 R4 R25 10K
   ( 1 GND )
   ( 2 N-000100 )
  )
- ( /4E0B287C $noname$ R26 470R
+ ( /4E0B287C R4 R26 470R
   ( 1 N-000043 )
   ( 2 N-000050 )
  )
- ( /4E0B2880 $noname$ R27 470R
+ ( /4E0B2880 R4 R27 470R
   ( 1 N-000044 )
   ( 2 N-000051 )
  )
- ( /4E0B30D5 $noname$ R28 2k
+ ( /4E0B30D5 R4 R28 2k
   ( 1 N-000082 )
   ( 2 +3V3 )
  )
- ( /4E0B30D4 $noname$ R29 2k
+ ( /4E0B30D4 R4 R29 2k
   ( 1 N-000083 )
   ( 2 +3V3 )
  )
- ( /4E0DF93F $noname$ R30 1k
+ ( /4E0DF93F R4 R30 1k
   ( 1 +5V )
   ( 2 N-000025 )
  )
- ( /4E0B30D3 $noname$ R31 2k
+ ( /4E0B30D3 R4 R31 2k
   ( 1 N-000084 )
   ( 2 +3V3 )
  )
- ( /4E0B30D2 $noname$ R32 2k
+ ( /4E0B30D2 R4 R32 2k
   ( 1 N-000085 )
   ( 2 +3V3 )
  )
- ( /4E0DBB68 $noname$ U1 65HVD251
+ ( /4E0DBB68 8DIP300-ELL U1 65HVD251
   ( 1 N-000089 )
   ( 2 GND )
   ( 3 +3V3 )
@@ -551,7 +559,7 @@
   ( 7 N-000103 )
   ( 8 ? )
  )
- ( /4E0B10C0 $noname$ U2 SDCARD
+ ( /4E0B10C0 TO220AB-V U2 SDCARD
   ( 1 ? )
   ( 2 N-000055 )
   ( 3 N-000056 )
@@ -561,7 +569,7 @@
   ( 7 N-000053 )
   ( 8 ? )
  )
- ( /4E0AFEC4 $noname$ U3 7805
+ ( /4E0AFEC4 TO220AB-V U3 7805
   ( 1 VAA )
   ( 2 GND )
   ( 3 +5V )
