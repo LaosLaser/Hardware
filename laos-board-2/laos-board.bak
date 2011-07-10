@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 06 Jul 2011 12:18:27 PM CEST
+EESchema Schematic File Version 2  date Sat 09 Jul 2011 07:24:54 PM CEST
 LIBS:laos_kicad_lib
 LIBS:conn
 LIBS:74xx
@@ -46,7 +46,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "LAOS"
-Date "6 jul 2011"
+Date "9 jul 2011"
 Rev "1"
 Comp "http://www.laoslaser.org"
 Comment1 ""
@@ -54,48 +54,20 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 15650 -500 0    60   ~ 0
-Mounting holes
-$Comp
-L MOUNT_HOLE H4
-U 1 1 4E1435F8
-P 16250 -350
-F 0 "H4" H 16200 -400 60  0000 C CNN
-F 1 "MOUNT_HOLE" H 16250 -100 60  0001 C CNN
-	1    16250 -350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MOUNT_HOLE H3
-U 1 1 4E1435F7
-P 16100 -350
-F 0 "H3" H 16050 -400 60  0000 C CNN
-F 1 "MOUNT_HOLE" H 16100 -100 60  0001 C CNN
-	1    16100 -350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MOUNT_HOLE H2
-U 1 1 4E1435F4
-P 15950 -350
-F 0 "H2" H 15900 -400 60  0000 C CNN
-F 1 "MOUNT_HOLE" H 15950 -100 60  0001 C CNN
-	1    15950 -350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MOUNT_HOLE H1
-U 1 1 4E1435EA
-P 15800 -350
-F 0 "H1" H 15750 -400 60  0000 C CNN
-F 1 "MOUNT_HOLE" H 15800 -100 60  0001 C CNN
-	1    15800 -350
-	1    0    0    -1  
-$EndComp
+Connection ~ 1800 7250
+Connection ~ 1800 7850
 Wire Wire Line
-	2550 7200 2550 7160
+	1800 7850 1800 5850
 Wire Wire Line
-	2450 7450 1650 7450
+	1650 7350 1900 7350
+Wire Wire Line
+	1900 7350 1900 6150
+Wire Wire Line
+	1900 6150 2200 6150
+Wire Wire Line
+	1800 1400 2250 1400
+Wire Wire Line
+	2000 5600 2000 5560
 Wire Wire Line
 	10900 1100 7550 1100
 Wire Wire Line
@@ -103,19 +75,11 @@ Wire Wire Line
 Connection ~ 11700 900 
 Wire Wire Line
 	11700 1200 11700 900 
-Wire Wire Line
-	2200 6150 1700 6150
-Wire Wire Line
-	1700 6150 1700 7250
-Wire Wire Line
-	2200 6750 1800 6750
 Connection ~ 6600 6350
 Wire Wire Line
 	2900 6350 6600 6350
 Wire Wire Line
 	2500 6350 2600 6350
-Wire Wire Line
-	1700 7250 1650 7250
 Wire Wire Line
 	2200 7150 2200 7250
 Wire Wire Line
@@ -135,9 +99,8 @@ Wire Wire Line
 	11600 2350 11600 2400
 Wire Wire Line
 	1750 9100 1750 8900
-Connection ~ 1850 7850
 Wire Wire Line
-	1850 7850 1650 7850
+	1650 7850 1850 7850
 Wire Wire Line
 	1650 7950 2050 7950
 Wire Wire Line
@@ -154,10 +117,10 @@ Wire Wire Line
 	1750 8900 1650 8900
 Connection ~ 1850 8600
 Wire Wire Line
-	1650 8600 1850 8600
+	1850 8600 1650 8600
 Connection ~ 1850 7900
 Wire Wire Line
-	1850 7900 2450 7900
+	2450 7900 1850 7900
 Connection ~ 1850 8500
 Wire Wire Line
 	1850 8500 2450 8500
@@ -527,11 +490,9 @@ Wire Wire Line
 	9300 8625 8100 8625
 Connection ~ 2050 4300
 Wire Wire Line
-	2050 4300 2050 1500
+	2050 4300 2050 1650
 Wire Wire Line
 	9100 2350 9100 2400
-Wire Wire Line
-	2250 1400 1800 1400
 Wire Wire Line
 	2550 1400 2650 1400
 Wire Wire Line
@@ -794,7 +755,7 @@ Wire Wire Line
 	2650 1650 2650 1350
 Connection ~ 2650 1400
 Wire Wire Line
-	2250 1650 1800 1650
+	1800 1650 2250 1650
 Wire Wire Line
 	9100 2000 9100 2050
 Connection ~ 8100 8125
@@ -821,8 +782,6 @@ Wire Wire Line
 	1800 1750 1850 1750
 Wire Wire Line
 	1850 1750 1850 1800
-Wire Wire Line
-	2050 1500 1800 1500
 Connection ~ 8250 9975
 Wire Wire Line
 	12200 8225 10050 8225
@@ -905,7 +864,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 8050 1650 8050
 Wire Wire Line
-	1850 8800 1850 7450
+	1850 8800 1850 7850
 Wire Wire Line
 	1650 8150 1750 8150
 Wire Wire Line
@@ -955,15 +914,10 @@ Wire Wire Line
 Wire Wire Line
 	2200 6550 2200 6625
 Wire Wire Line
-	1650 7350 1800 7350
-Wire Wire Line
 	2500 6950 2600 6950
 Wire Wire Line
 	2900 6950 6700 6950
 Connection ~ 6700 6950
-Wire Wire Line
-	1800 7350 1800 6750
-Connection ~ 1850 7450
 Wire Wire Line
 	11700 1500 11700 1600
 Wire Wire Line
@@ -974,16 +928,78 @@ Connection ~ 11800 1000
 Wire Wire Line
 	7450 800  10900 800 
 Wire Wire Line
-	2680 7170 2680 7700
+	2205 5570 2205 6100
 Wire Wire Line
-	2680 7700 2550 7700
+	2205 6100 2000 6100
+Connection ~ 2050 1650
+Wire Wire Line
+	1800 1500 1850 1500
+Wire Wire Line
+	1850 1500 1850 1550
+Wire Wire Line
+	2200 6750 2000 6750
+Wire Wire Line
+	2000 6750 2000 7450
+Wire Wire Line
+	2000 7450 1650 7450
+Wire Wire Line
+	1800 5850 1900 5850
+Wire Wire Line
+	1800 7250 1650 7250
+$Comp
+L GND #PWR?
+U 1 1 4E188C15
+P 1850 1550
+F 0 "#PWR?" H 1850 1550 30  0001 C CNN
+F 1 "GND" H 1850 1480 30  0001 C CNN
+	1    1850 1550
+	1    0    0    -1  
+$EndComp
+Text Notes 15300 700  0    60   ~ 0
+Mounting holes
+$Comp
+L MOUNT_HOLE H4
+U 1 1 4E1435F8
+P 15900 850
+F 0 "H4" H 15850 800 60  0000 C CNN
+F 1 "MOUNT_HOLE" H 15900 1100 60  0001 C CNN
+	1    15900 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNT_HOLE H3
+U 1 1 4E1435F7
+P 15750 850
+F 0 "H3" H 15700 800 60  0000 C CNN
+F 1 "MOUNT_HOLE" H 15750 1100 60  0001 C CNN
+	1    15750 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNT_HOLE H2
+U 1 1 4E1435F4
+P 15600 850
+F 0 "H2" H 15550 800 60  0000 C CNN
+F 1 "MOUNT_HOLE" H 15600 1100 60  0001 C CNN
+	1    15600 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNT_HOLE H1
+U 1 1 4E1435EA
+P 15450 850
+F 0 "H1" H 15400 800 60  0000 C CNN
+F 1 "MOUNT_HOLE" H 15450 1100 60  0001 C CNN
+	1    15450 850 
+	1    0    0    -1  
+$EndComp
 $Comp
 L JP3 J28
 U 1 1 4E0E12DD
-P 2550 7450
-F 0 "J28" V 2490 7600 60  0000 C CNN
-F 1 "JP3" V 2620 7610 60  0001 C CNN
-	1    2550 7450
+P 2000 5850
+F 0 "J28" V 1940 6000 60  0000 C CNN
+F 1 "JP3" V 2070 6010 60  0001 C CNN
+	1    2000 5850
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -1112,10 +1128,10 @@ $EndComp
 $Comp
 L +5V #PWR49
 U 1 1 4E0DF8E3
-P 2550 7160
-F 0 "#PWR49" H 2550 7250 20  0001 C CNN
-F 1 "+5V" H 2550 7250 30  0000 C CNN
-	1    2550 7160
+P 2000 5560
+F 0 "#PWR49" H 2000 5650 20  0001 C CNN
+F 1 "+5V" H 2000 5650 30  0000 C CNN
+	1    2000 5560
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2123,10 +2139,10 @@ $EndComp
 $Comp
 L VAA #PWR50
 U 1 1 4E0B3045
-P 2680 7170
-F 0 "#PWR50" H 2680 7230 30  0001 C CNN
-F 1 "VAA" H 2680 7280 30  0000 C CNN
-	1    2680 7170
+P 2205 5570
+F 0 "#PWR50" H 2205 5630 30  0001 C CNN
+F 1 "VAA" H 2205 5680 30  0000 C CNN
+	1    2205 5570
 	1    0    0    -1  
 $EndComp
 $Comp
