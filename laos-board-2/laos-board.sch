@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 09 Jul 2011 07:25:33 PM CEST
+EESchema Schematic File Version 2  date Tue 12 Jul 2011 03:15:46 PM CEST
 LIBS:laos_kicad_lib
 LIBS:conn
 LIBS:74xx
@@ -46,7 +46,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "LAOS"
-Date "9 jul 2011"
+Date "12 jul 2011"
 Rev "1"
 Comp "http://www.laoslaser.org"
 Comment1 ""
@@ -54,6 +54,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 2925 4400
 Wire Wire Line
 	1600 8800 1800 8800
 Wire Wire Line
