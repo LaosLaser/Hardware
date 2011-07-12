@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Wed 06 Jul 2011 01:04:15 PM CEST
+# EESchema Netlist Version 1.1 created  Tue 12 Jul 2011 11:23:52 AM CEST
 (
  ( /4E0B1D13 C_CER C1 100nF
   ( 1 GND )
@@ -104,7 +104,7 @@
   ( 1 +5V )
   ( 2 N-000062 )
  )
- ( /4E0B182D $noname$ J4 MAGJACK
+ ( /4E0B182D RJ45_HALO_HFJ11 J4 MAGJACK
   ( 1 N-000066 )
   ( 2 +3V3 )
   ( 3 N-000064 )
@@ -559,7 +559,7 @@
   ( 7 N-000103 )
   ( 8 ? )
  )
- ( /4E0B10C0 TO220AB-V U2 SDCARD
+ ( /4E0B10C0 HIROSE_DM1B-DSF-PEJ U2 SDCARD
   ( 1 ? )
   ( 2 N-000055 )
   ( 3 N-000056 )

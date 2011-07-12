@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-07-05 BZR 3040)-testing date = Wed 06 Jul 2011 01:04:15 PM CEST
+Cmp-Mod V01 Created by CvPCB (2011-07-09 BZR 3046)-testing date = Tue 12 Jul 2011 11:23:52 AM CEST
 
 BeginCmp
 TimeStamp = /4E0B1D13;
@@ -144,7 +144,7 @@ BeginCmp
 TimeStamp = /4E0B182D;
 Reference = J4;
 ValeurCmp = MAGJACK;
-IdModule  = ;
+IdModule  = RJ45_HALO_HFJ11;
 EndCmp
 
 BeginCmp
@@ -641,7 +641,7 @@ BeginCmp
 TimeStamp = /4E0B10C0;
 Reference = U2;
 ValeurCmp = SDCARD;
-IdModule  = TO220AB-V;
+IdModule  = HIROSE_DM1B-DSF-PEJ;
 EndCmp
 
 BeginCmp
