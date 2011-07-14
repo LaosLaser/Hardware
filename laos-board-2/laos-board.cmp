@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-07-09 BZR 3046)-testing date = Tue 12 Jul 2011 11:23:52 AM CEST
+Cmp-Mod V01 Created by CvPCB (2011-07-09 BZR 3046)-testing date = Thu 14 Jul 2011 03:08:08 PM CEST
 
 BeginCmp
 TimeStamp = /4E0B1D13;
@@ -25,7 +25,7 @@ BeginCmp
 TimeStamp = /4E0DE6FC;
 Reference = C4;
 ValeurCmp = 1000uF;
-IdModule  = Pkg;
+IdModule  = CCAP_5MM;
 EndCmp
 
 BeginCmp
@@ -39,7 +39,7 @@ BeginCmp
 TimeStamp = /4E0DE760;
 Reference = C6;
 ValeurCmp = 100uF;
-IdModule  = Pkg;
+IdModule  = CCAP_3.5MM;
 EndCmp
 
 BeginCmp
@@ -60,21 +60,21 @@ BeginCmp
 TimeStamp = /4E0DC498;
 Reference = D1;
 ValeurCmp = LEDR;
-IdModule  = ;
+IdModule  = LED-3MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DF80D;
 Reference = D2;
 ValeurCmp = LEDY;
-IdModule  = ;
+IdModule  = LED-3MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DF940;
 Reference = D3;
 ValeurCmp = LEDG;
-IdModule  = ;
+IdModule  = LED-3MM;
 EndCmp
 
 BeginCmp
@@ -396,14 +396,14 @@ BeginCmp
 TimeStamp = /4E0DFDAD;
 Reference = Q1;
 ValeurCmp = TIP115;
-IdModule  = T220-3;
+IdModule  = TO220V-BCE;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DFD48;
 Reference = Q2;
 ValeurCmp = TIP115;
-IdModule  = T220-3;
+IdModule  = TO220V-BCE;
 EndCmp
 
 BeginCmp
@@ -648,7 +648,7 @@ BeginCmp
 TimeStamp = /4E0AFEC4;
 Reference = U3;
 ValeurCmp = 7805;
-IdModule  = TO220AB-V;
+IdModule  = TO220V-123;
 EndCmp
 
 EndListe

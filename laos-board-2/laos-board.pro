@@ -1,5 +1,5 @@
-update=Tue 12 Jul 2011 11:23:46 AM CEST
-last_client=cvpcb
+update=Thu 14 Jul 2011 02:41:28 PM CEST
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=library
@@ -72,6 +72,9 @@ LibName37=/home/jerry/Projects/kicad/kicad-newlib/library/resist
 LibName38=/home/jerry/Projects/kicad/kicad-newlib/library/supervisor
 LibName39=/home/jerry/Projects/kicad/kicad-newlib/library/switcher
 LibName40=/home/jerry/Projects/kicad/kicad-newlib/library/video
+[cvpcb]
+version=1
+NetIExt=net
 [pcbnew]
 version=1
 PadDrlX=320
@@ -90,8 +93,6 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=laos-board.net
 [pcbnew/libraries]
-LibName1=laos_kicad_lib
 LibDir=library
-[cvpcb]
-version=1
-NetIExt=net
+LibName1=laos_kicad_lib
+LibName2=discret
