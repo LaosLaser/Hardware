@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 14 Jul 2011 03:02:48 PM CEST
+EESchema Schematic File Version 2  date Thu 14 Jul 2011 05:35:04 PM CEST
 LIBS:laos_kicad_lib
 LIBS:conn
 LIBS:74xx
