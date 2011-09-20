@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Fri 15 Jul 2011 09:42:30 AM CEST
+EESchema-LIBRARY Version 2.3  Date: Fri 15 Jul 2011 10:08:35 AM CEST
 #encoding utf-8
 #
 # +3V3
@@ -241,7 +241,7 @@ ENDDEF
 #
 # JP_3
 #
-DEF ~JP_3 J 0 0 Y N 1 F N
+DEF ~JP_3 J 0 0 N N 1 F N
 F0 "J" -100 -200 60 H V C CNN
 F1 "JP_3" 0 200 60 H I C CNN
 F2 "Pkg" 100 -200 30 H V C CNN
