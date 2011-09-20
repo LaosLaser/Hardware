@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 20 Sep 2011 03:01:36 PM CEST
+EESchema Schematic File Version 2  date Tue 20 Sep 2011 03:33:49 PM CEST
 LIBS:laos_kicad_lib
 LIBS:laos-board-cache
 EELAYER 25  0
@@ -15,6 +15,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	11440 1435 11440 1560
+Connection ~ 5400 770 
+Wire Wire Line
+	5400 770  5200 770 
+Wire Wire Line
+	5200 770  5200 1300
+Wire Wire Line
+	3000 3200 3000 3300
+Wire Wire Line
+	3000 3300 1650 3300
 Connection ~ 8870 6900
 Wire Wire Line
 	8865 6905 8870 6900
@@ -411,9 +422,6 @@ Wire Wire Line
 Connection ~ 8100 10275
 Wire Wire Line
 	9300 8625 8100 8625
-Connection ~ 2050 4300
-Wire Wire Line
-	2050 4300 2050 1650
 Wire Wire Line
 	9100 2350 9100 2400
 Wire Wire Line
@@ -470,18 +478,12 @@ Wire Wire Line
 Wire Wire Line
 	4200 5100 1800 5100
 Wire Wire Line
-	1650 3400 3000 3400
-Wire Wire Line
-	1650 3300 2900 3300
-Wire Wire Line
 	2550 3100 4200 3100
 Wire Wire Line
 	4200 2200 1800 2200
 Wire Wire Line
 	4200 2000 1800 2000
 Connection ~ 3000 3200
-Wire Wire Line
-	3000 3400 3000 3200
 Connection ~ 8875 10075
 Wire Wire Line
 	8875 10375 8975 10375
@@ -533,8 +535,6 @@ Wire Wire Line
 	1475 825  1775 825 
 Wire Wire Line
 	5400 800  5400 750 
-Wire Wire Line
-	5200 750  5200 1300
 Wire Wire Line
 	1475 825  1475 1025
 Connection ~ 1850 2500
@@ -602,9 +602,6 @@ Wire Wire Line
 Wire Wire Line
 	8875 10675 8975 10675
 Connection ~ 8875 10375
-Wire Wire Line
-	2900 3300 2900 3100
-Connection ~ 2900 3100
 Wire Wire Line
 	2250 3100 2150 3100
 Wire Wire Line
@@ -836,7 +833,6 @@ Wire Wire Line
 	2205 5570 2205 6100
 Wire Wire Line
 	2205 6100 2000 6100
-Connection ~ 2050 1650
 Wire Wire Line
 	1800 1500 1850 1500
 Wire Wire Line
@@ -918,6 +914,32 @@ Wire Wire Line
 	10245 7420 8870 7420
 Wire Wire Line
 	8870 7420 8870 6895
+Wire Wire Line
+	1650 3400 2925 3400
+Wire Wire Line
+	2925 3400 2925 3100
+Connection ~ 2925 3100
+Wire Wire Line
+	11440 1960 11440 2050
+Connection ~ 11440 2050
+$Comp
+L +5V #PWR?
+U 1 1 4E78913E
+P 11440 1435
+F 0 "#PWR?" H 11440 1525 20  0001 C CNN
+F 1 "+5V" H 11440 1525 30  0000 C CNN
+	1    11440 1435
+	1    0    0    -1  
+$EndComp
+$Comp
+L JP J?
+U 1 1 4E7890F5
+P 11440 1760
+F 0 "J?" H 11440 1630 60  0000 C CNN
+F 1 "JP" H 11440 1875 60  0000 C CNN
+	1    11440 1760
+	0    -1   -1   0   
+$EndComp
 $Comp
 L JP_3 J36
 U 1 1 4E0DDA0F
@@ -2273,15 +2295,6 @@ P 5400 6200
 F 0 "#PWR049" H 5400 6200 30  0001 C CNN
 F 1 "GND" H 5400 6130 30  0001 C CNN
 	1    5400 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5VD #PWR050
-U 1 1 4E0B1D79
-P 5200 750
-F 0 "#PWR050" H 5200 700 20  0001 C CNN
-F 1 "+5VD" H 5200 850 30  0000 C CNN
-	1    5200 750 
 	1    0    0    -1  
 $EndComp
 $Comp
