@@ -1,0 +1,49 @@
+XYLimit P10: 
+ 2 way horizontal PCB header,5.08mm pitch:  189-6105
+ met: 2 way parallel PCB rising clamp,5.08mm: 189-6010
+ 
+ZLimit P9: 2 x 2-way header:
+ 2 way horizontal PCB header,5.08mm pitch: 189-6105
+ met: 2 way parallel PCB rising clamp,5.08mm: 189-6010
+ 
+Voor P5: laser: 4-way, dus: 189-6032 + 189-6127
+
+Vsensor: ook 189-6105 + 189-6010
+
+Analog P8: 4-way, dus: 189-6032 + 189-6217
+
+Aansluiting stepper motors of extern stepper driver board:
+5-polige connector, evt te vervangen door 4-polig als je een
+Pololu board hebt geplaatst.
+RS: + 189-6048 + 189-6133
+
+65HVD251P -> DIP8
+Symbool pololu aanpassen (nummering schema)
+SDCard socket van RS
+2x KB847 4channel opto
+Weerstanden ethernet
+
+Ethernet plug:  
+RS stocknummer 666-4650Fabrikant Halo Electronics Fabrikantnummer HFJ11-2450E-L12RL 
+
+398697 Regulator
+3-Term Fixed 5V Volt Reg 4% TS7805CZ C0  
+
+TE292303-3 USB Host
+RS 7199438
+
+Terminals connectoren I/O bij de optos & can male/female
+Endstops 2way 2.54 vertical mount terminal RS 220-4260 Phoenix MPT 0.5/ 2-2.54
+
+100nF 5,08mm ceramic
+
+
+Stepper connectoren
+ - Enable
+ - Step
+ - Dir
+ - GND
+ - +5V
+Combinatie of polulu/connector of alleen stepper connector (onder polulu)
+
+Ledje external power
