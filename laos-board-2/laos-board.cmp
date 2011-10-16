@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-10-16 BZR 3173)-testing date = Sun 16 Oct 2011 02:27:09 PM EDT
+Cmp-Mod V01 Created by CvPcb (2011-10-16 BZR 3173)-testing date = Sun 16 Oct 2011 02:50:36 PM EDT
 
 BeginCmp
 TimeStamp = /4E0B1D13;
@@ -403,14 +403,14 @@ BeginCmp
 TimeStamp = /4E998E33;
 Reference = J41;
 ValeurCmp = O1_SRC;
-IdModule  = SJ_3;
+IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E998EA1;
 Reference = J42;
 ValeurCmp = O2_SRC;
-IdModule  = SJ_3;
+IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
