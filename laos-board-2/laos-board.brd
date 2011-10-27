@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Thu 27 Oct 2011 09:42:22 PM CEST
+PCBNEW-BOARD Version 1 date Thu 27 Oct 2011 10:02:57 PM CEST
 
 # Created by Pcbnew(2011-10-18 BZR 3179)-testing
 
@@ -10,7 +10,7 @@ EnabledLayers 12FF8001
 Links 368
 NoConn 0
 Di 11675 5620 67585 66194
-Ndraw 31
+Ndraw 41
 Ntrack 1209
 Nzone 0
 BoardThickness 630
@@ -58,8 +58,8 @@ TextPcbSize 600 800
 EdgeModWidth 150
 TextModSize 600 600
 TextModWidth 120
-PadSize 2461 2461
-PadDrill 1319
+PadSize 600 600
+PadDrill 320
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 0 0
 PcbPlotParams (pcbplotparams (layerselection 318734337) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output true) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 2) (scaleselection 1) (outputdirectory output/gerber/))
@@ -5744,7 +5744,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  LED-3MM
 $MODULE CCAP_5MM
-Po 49000 61000 900 15 4E1EE708 4E1EE7E2 ~~
+Po 49000 61000 900 15 4EA9B741 4E1EE7E2 ~~
 Li CCAP_5MM
 Cd Condensateur e = 1 pas
 Kw C
@@ -5754,7 +5754,7 @@ Op 0 0 0
 T0 984 -787 300 300 900 50 N V 21 N "C4"
 T1 984 2362 300 250 900 50 N V 21 N "1000uF"
 DC 984 0 2953 0 150 21
-T2 -1378 0 300 300 900 75 N V 21 N "+"
+T2 -750 -50 300 300 900 75 N V 21 N "+"
 $PAD
 Sh "1" R 550 550 0 0 900
 Dr 320 0 0
@@ -5810,14 +5810,14 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  CCAP_3.5MM
 $MODULE TO220V-BCE
-Po 16250 34000 0 15 4E1EEA01 4E1EEA54 ~~
+Po 16250 34000 0 15 4EA9B8C9 4E1EEA54 ~~
 Li TO220V-BCE
 Cd Transistor VMOS Irf530, TO220
 Kw TR TO220 DEV
 Sc 4E1EEA54
 AR /4E0DFDAD
 Op 0 0 0
-T0 -1500 0 600 400 900 80 N V 21 N "Q1"
+T0 400 2600 600 400 900 80 N V 21 N "Q1"
 T1 1500 0 600 400 900 80 N V 21 N "TIP115"
 DS 700 -2000 700 2000 75 21
 DS 0 -1900 0 1900 75 21
@@ -5854,14 +5854,14 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  TO220V-BCE
 $MODULE TO220V-BCE
-Po 16250 28750 0 15 4E1EEA01 4E1EEA56 ~~
+Po 16250 28750 0 15 4EA9B8D5 4E1EEA56 ~~
 Li TO220V-BCE
 Cd Transistor VMOS Irf530, TO220
 Kw TR TO220 DEV
 Sc 4E1EEA56
 AR /4E0DFD48
 Op 0 0 0
-T0 -1500 0 600 400 900 80 N V 21 N "Q2"
+T0 200 2550 600 400 900 80 N V 21 N "Q2"
 T1 1500 0 600 400 900 80 N V 21 N "TIP115"
 DS 700 -2000 700 2000 75 21
 DS 0 -1900 0 1900 75 21
@@ -6540,6 +6540,56 @@ Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  LED-3MM
+$TEXTPCB
+Te "GND"
+Po 15150 35050 600 800 120 900
+De 21 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "+5V"
+Po 15950 40800 600 800 120 0
+De 21 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "+"
+Po 14950 32300 600 800 120 0
+De 21 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "GND"
+Po 15100 27300 600 800 120 900
+De 21 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "+3V3"
+Po 15650 24700 600 800 120 900
+De 21 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "GND"
+Po 15350 18850 600 800 120 900
+De 21 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "GND"
+Po 20750 15150 600 800 120 900
+De 21 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "+VIN"
+Po 16150 15750 600 800 120 900
+De 21 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "GND"
+Po 46500 62600 600 800 120 0
+De 21 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "+VPP"
+Po 49300 62650 600 800 120 0
+De 21 1 0 Normal C
+$EndTEXTPCB
 $TEXTPCB
 Te "OPTO"
 Po 29550 51150 600 800 120 900
