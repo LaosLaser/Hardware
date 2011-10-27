@@ -1,4 +1,4 @@
-update=Sun 16 Oct 2011 04:59:18 PM CEST
+update=Thu 27 Oct 2011 07:26:53 PM CEST
 last_client=eeschema
 [cvpcb]
 version=1
@@ -56,3 +56,4 @@ RptLab=1
 LabSize=60
 [eeschema/libraries]
 LibName1=laos_kicad_lib
+LibName2=power
