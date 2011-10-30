@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 27 Oct 2011 07:34:12 PM CEST
+EESchema Schematic File Version 2  date Sun 30 Oct 2011 09:37:59 PM CET
 LIBS:laos_kicad_lib
 LIBS:power
 LIBS:laos-board-cache
@@ -8,7 +8,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "LAOS"
-Date "27 oct 2011"
+Date "30 oct 2011"
 Rev "2"
 Comp "http://www.laoslaser.org"
 Comment1 ""
@@ -16,6 +16,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 2800 10750
 Text Notes 12850 9775 0    60   ~ 0
 Note: VPP is VMOTOR, bug in kicad power netlist for now ...
 Wire Wire Line
