@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 30 Oct 2011 09:37:59 PM CET
+EESchema Schematic File Version 2  date Sun 30 Oct 2011 10:25:19 PM CET
 LIBS:laos_kicad_lib
 LIBS:power
 LIBS:laos-board-cache
@@ -16,9 +16,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L VAA #PWR69
+U 1 1 4EADC07B
+P 12100 1850
+F 0 "#PWR69" H 12100 1910 30  0001 C CNN
+F 1 "VAA" H 12100 1960 30  0000 C CNN
+	1    12100 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 2250 12100 2250
+Wire Wire Line
+	12100 2250 12100 1850
+Wire Wire Line
+	12150 2050 11350 2050
 Connection ~ 2800 10750
-Text Notes 12850 9775 0    60   ~ 0
-Note: VPP is VMOTOR, bug in kicad power netlist for now ...
 Wire Wire Line
 	10300 6125 10300 6200
 Wire Wire Line
@@ -26,7 +39,7 @@ Wire Wire Line
 Wire Wire Line
 	12000 4200 12000 4250
 Wire Wire Line
-	12000 1900 12000 2050
+	12000 2050 12000 1900
 Wire Wire Line
 	10250 9250 8975 9250
 Wire Wire Line
@@ -138,7 +151,7 @@ Wire Wire Line
 Wire Wire Line
 	3475 10350 3200 10350
 Wire Wire Line
-	11350 2250 11350 2050
+	11350 2050 11350 2250
 Wire Wire Line
 	11600 2350 11600 2400
 Wire Wire Line
@@ -184,8 +197,6 @@ Wire Wire Line
 Connection ~ 9100 2800
 Wire Wire Line
 	7300 2800 7300 8025
-Wire Wire Line
-	12225 2250 12225 2150
 Wire Wire Line
 	8100 4300 8100 4750
 Wire Wire Line
@@ -762,8 +773,6 @@ Wire Wire Line
 	1600 8150 1700 8150
 Wire Wire Line
 	1700 8150 1700 8250
-Wire Wire Line
-	11350 2050 12225 2050
 Connection ~ 11600 2050
 Wire Wire Line
 	11600 2800 11600 2900
@@ -936,6 +945,21 @@ Wire Wire Line
 	12000 5900 12000 6000
 Wire Wire Line
 	10300 8025 10300 7850
+Wire Wire Line
+	12150 2150 11850 2150
+Wire Wire Line
+	11850 2150 11850 2300
+$Comp
+L CONN_3 J5
+U 1 1 4EADB8C1
+P 12300 2100
+F 0 "J5" H 12350 2350 60  0000 R CNN
+F 1 "CONN_3" V 12400 2100 60  0001 C CNN
+	1    12300 2100
+	1    0    0    1   
+$EndComp
+Text Notes 12850 9775 0    60   ~ 0
+Note: VPP is VMOTOR, bug in kicad power netlist for now ...
 $Comp
 L VPP #PWR20
 U 1 1 4EA9958A
@@ -964,10 +988,10 @@ F 1 "VPP" H 10300 6275 40  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VPP #PWR66
+L VPP #PWR67
 U 1 1 4EA99544
 P 12000 7750
-F 0 "#PWR66" H 12000 7950 40  0001 C CNN
+F 0 "#PWR67" H 12000 7950 40  0001 C CNN
 F 1 "VPP" H 12000 7900 40  0000 C CNN
 	1    12000 7750
 	1    0    0    -1  
@@ -982,28 +1006,28 @@ F 1 "VPP" H 10300 8000 40  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VPP #PWR64
+L VPP #PWR65
 U 1 1 4EA99504
 P 12000 5900
-F 0 "#PWR64" H 12000 6100 40  0001 C CNN
+F 0 "#PWR65" H 12000 6100 40  0001 C CNN
 F 1 "VPP" H 12000 6050 40  0000 C CNN
 	1    12000 5900
 	1    0    0    -1  
 $EndComp
 $Comp
-L VPP #PWR62
+L VPP #PWR63
 U 1 1 4EA994DD
 P 12000 4200
-F 0 "#PWR62" H 12000 4400 40  0001 C CNN
+F 0 "#PWR63" H 12000 4400 40  0001 C CNN
 F 1 "VPP" H 12000 4350 40  0000 C CNN
 	1    12000 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L VPP #PWR60
+L VPP #PWR61
 U 1 1 4EA994C7
 P 12000 2500
-F 0 "#PWR60" H 12000 2700 40  0001 C CNN
+F 0 "#PWR61" H 12000 2700 40  0001 C CNN
 F 1 "VPP" H 12000 2650 40  0000 C CNN
 	1    12000 2500
 	1    0    0    -1  
@@ -1018,10 +1042,10 @@ F 1 "VPP" H 10300 2850 40  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VPP #PWR59
+L VPP #PWR60
 U 1 1 4EA994A5
 P 12000 1900
-F 0 "#PWR59" H 12000 2100 40  0001 C CNN
+F 0 "#PWR60" H 12000 2100 40  0001 C CNN
 F 1 "VPP" H 12000 2050 40  0000 C CNN
 	1    12000 1900
 	1    0    0    -1  
@@ -1377,10 +1401,10 @@ $EndComp
 $Comp
 L GND #PWR010
 U 1 1 4E0DE388
-P 12225 2250
-F 0 "#PWR010" H 12225 2250 30  0001 C CNN
-F 1 "GND" H 12225 2180 30  0001 C CNN
-	1    12225 2250
+P 11850 2300
+F 0 "#PWR010" H 11850 2300 30  0001 C CNN
+F 1 "GND" H 11850 2230 30  0001 C CNN
+	1    11850 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2313,17 +2337,7 @@ F 2 "DIP16" H 2800 7750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 12500 2100 0    60   ~ 0
-VMOT\nGND
-$Comp
-L CONN_2 J5
-U 1 1 4E0B259F
-P 12375 2100
-F 0 "J5" H 12450 2300 60  0000 R CNN
-F 1 "VMOT" V 12475 2100 60  0000 C CNN
-F 2 "Pkg" H 12375 2000 30  0001 C CNN
-	1    12375 2100
-	1    0    0    -1  
-$EndComp
+VMOT\nGND\nVAA
 $Comp
 L +5V #PWR048
 U 1 1 4E0B1EAE

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-10-16 BZR 3173)-testing date = Sun 16 Oct 2011 02:50:36 PM EDT
+Cmp-Mod V01 Created by CvPcb (2011-10-18 BZR 3179)-testing date = Sun 30 Oct 2011 10:10:38 PM CET
 
 BeginCmp
 TimeStamp = /4E0B1D13;
@@ -148,10 +148,10 @@ IdModule  = RJ45_HALO_HFJ11;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E0B259F;
+TimeStamp = /4EADB8C1;
 Reference = J5;
-ValeurCmp = VMOT;
-IdModule  = CONN_2;
+ValeurCmp = CONN_3;
+IdModule  = CONN_3;
 EndCmp
 
 BeginCmp
