@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sun 30 Oct 2011 10:25:16 PM CET
+# EESchema Netlist Version 1.1 created  Mon 31 Oct 2011 09:11:21 PM CET
 (
  ( /4EADB8C1 $noname  J5 CONN_3 {Lib=CONN_3}
   (    1 VAA )
@@ -542,7 +542,7 @@
   (   10 GND )
   (   11 N-000096 )
   (   12 GND )
-  (   SH GND )
+  (   13 GND )
  )
  ( /4E0B10C0 $noname  U2 SDCARD {Lib=SDCARD}
   (    1 N-000064 )
@@ -767,7 +767,7 @@ Net 4 "GND" "GND"
  J32 15
  J32 9
  J4 8
- J4 SH
+ J4 13
  J4 10
  J4 12
  U2 6
