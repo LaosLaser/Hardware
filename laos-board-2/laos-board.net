@@ -1,9 +1,9 @@
-# EESchema Netlist Version 1.1 created  Mon 31 Oct 2011 09:11:21 PM CET
+# EESchema Netlist Version 1.1 created  10/31/2011 10:47:34 PM
 (
  ( /4EADB8C1 $noname  J5 CONN_3 {Lib=CONN_3}
-  (    1 VAA )
+  (    1 VPP )
   (    2 GND )
-  (    3 VPP )
+  (    3 VAA )
  )
  ( /4E998EA1 $noname  J42 O2_SRC {Lib=JP3}
   (    1 N-000116 )
@@ -777,8 +777,8 @@ Net 4 "GND" "GND"
  IC1 15
  J5 2
  J17 9
- R9 1
  Q1 E
+ R9 1
  J19 2
  J23 9
  R16 1
@@ -950,7 +950,7 @@ Net 38 "VAA" "VAA"
  J40 2
  C6 1
  U3 1
- J5 1
+ J5 3
 Net 40 "" ""
  J11 20
  J26 3
@@ -1083,7 +1083,7 @@ Net 78 "VPP" "VPP"
  R5 2
  C3 2
  C4 1
- J5 3
+ J5 1
  J17 16
  J15 1
  R10 2

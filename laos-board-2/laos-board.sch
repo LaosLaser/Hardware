@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 30 Oct 2011 10:25:19 PM CET
+EESchema Schematic File Version 2  date 10/31/2011 10:47:27 PM
 LIBS:laos_kicad_lib
 LIBS:power
 LIBS:laos-board-cache
@@ -8,7 +8,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "LAOS"
-Date "30 oct 2011"
+Date "31 oct 2011"
 Rev "2"
 Comp "http://www.laoslaser.org"
 Comment1 ""
@@ -952,11 +952,11 @@ Wire Wire Line
 $Comp
 L CONN_3 J5
 U 1 1 4EADB8C1
-P 12300 2100
-F 0 "J5" H 12350 2350 60  0000 R CNN
-F 1 "CONN_3" V 12400 2100 60  0001 C CNN
-	1    12300 2100
-	1    0    0    1   
+P 12300 2200
+F 0 "J5" H 12350 2450 60  0000 R CNN
+F 1 "CONN_3" V 12400 2200 60  0001 C CNN
+	1    12300 2200
+	1    0    0    -1  
 $EndComp
 Text Notes 12850 9775 0    60   ~ 0
 Note: VPP is VMOTOR, bug in kicad power netlist for now ...
@@ -2336,7 +2336,7 @@ F 2 "DIP16" H 2800 7750 50  0001 C CNN
 	1    2800 8450
 	1    0    0    -1  
 $EndComp
-Text Notes 12500 2100 0    60   ~ 0
+Text Notes 12450 2100 0    60   ~ 0
 VMOT\nGND\nVAA
 $Comp
 L +5V #PWR048
