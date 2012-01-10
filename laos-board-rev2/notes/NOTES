@@ -1,0 +1,23 @@
+65HVD251P -> DIP8
+Symbool pololu aanpassen (nummering schema)
+SDCard socket van RS
+2x KB847 4channel opto
+Weerstanden ethernet
+
+
+398697 Regulator
+3-Term Fixed 5V Volt Reg 4% TS7805CZ C0	
+
+TE292303-3 USB Host
+RS 7199438
+
+Terminals connectoren I/O bij de optos & can male/female
+Endstops 2way 2.54 vertical mount terminal RS 220-4260 Phoenix MPT 0.5/ 2-2.54
+
+Ethernet plug (HALO):	
+RS stocknummer 666-4650Fabrikant Halo Electronics Fabrikantnummer HFJ11-2450E-L12RL 
+
+NOTE: Board Modification required for HALO ethernet connector instead of Magjack:  patch the board: eth-mod1 to 4.jpg  
+This would leave RX and TX reversed (compared to MagJack) but it should work, as most ethernet ports
+are auto MDX.
+
