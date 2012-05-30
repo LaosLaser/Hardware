@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 30 May 2012 09:26:48 PM CEST
+EESchema Schematic File Version 2  date Wed 30 May 2012 10:33:13 PM CEST
 LIBS:laos_kicad_lib
 LIBS:power
 LIBS:74xx
@@ -48,8 +48,8 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "LAOS"
-Date "28 may 2012"
-Rev "2"
+Date ""
+Rev "3"
 Comp "http://www.laoslaser.org"
 Comment1 ""
 Comment2 ""
