@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 02 Jun 2012 04:56:29 PM CEST
+EESchema Schematic File Version 2  date Sat 02 Jun 2012 05:12:06 PM CEST
 LIBS:laos_kicad_lib
 LIBS:power
 LIBS:74xx
@@ -1043,7 +1043,7 @@ P 13150 6950
 F 0 "P1" V 13100 6950 60  0000 C CNN
 F 1 "FLATCONN" V 13200 6950 60  0000 C CNN
 	1    13150 6950
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L R R34
