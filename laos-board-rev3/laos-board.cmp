@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-02-06 BZR 3180)-stable date = Sat 02 Jun 2012 03:26:50 PM CEST
+Cmp-Mod V01 Created by CvPcb (2012-02-06 BZR 3180)-stable date = Sat 02 Jun 2012 04:21:04 PM CEST
 
 BeginCmp
 TimeStamp = /4E0B1D13;
@@ -411,6 +411,13 @@ TimeStamp = /4FC3D947;
 Reference = J43;
 ValeurCmp = CONN_4;
 IdModule  = SIL-4a;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCA2303;
+Reference = P1;
+ValeurCmp = FLATCONN;
+IdModule  = FLAT-12;
 EndCmp
 
 BeginCmp
