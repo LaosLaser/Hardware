@@ -1,15 +1,8 @@
-Cmp-Mod V01 Created by CvPcb (2012-02-06 BZR 3180)-stable date = Mon 28 May 2012 10:38:55 PM CEST
+Cmp-Mod V01 Created by CvPcb (2012-02-06 BZR 3180)-stable date = Sat 02 Jun 2012 03:26:50 PM CEST
 
 BeginCmp
 TimeStamp = /4E0B1D13;
 Reference = C1;
-ValeurCmp = 100nF;
-IdModule  = C_CER;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E0B1D28;
-Reference = C2;
 ValeurCmp = 100nF;
 IdModule  = C_CER;
 EndCmp
@@ -417,7 +410,7 @@ BeginCmp
 TimeStamp = /4FC3D947;
 Reference = J43;
 ValeurCmp = CONN_4;
-IdModule  = SIL-4;
+IdModule  = SIL-4a;
 EndCmp
 
 BeginCmp
