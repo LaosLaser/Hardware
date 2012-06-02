@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 30 May 2012 10:33:13 PM CEST
+EESchema Schematic File Version 2  date Sat 02 Jun 2012 02:34:44 PM CEST
 LIBS:laos_kicad_lib
 LIBS:power
 LIBS:74xx
@@ -48,7 +48,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "LAOS"
-Date ""
+Date "2 jun 2012"
 Rev "3"
 Comp "http://www.laoslaser.org"
 Comment1 ""
@@ -456,11 +456,8 @@ Wire Wire Line
 	3250 8400 3150 8400
 Connection ~ 3250 8400
 Connection ~ 3250 9000
-Connection ~ 2175 1125
 Wire Wire Line
 	2175 825  2175 1175
-Wire Wire Line
-	1775 1125 1775 825 
 Wire Wire Line
 	1850 2550 1850 2400
 Wire Wire Line
@@ -2481,16 +2478,6 @@ F 0 "#PWR051" H 1625 735 30  0001 C CNN
 F 1 "+3V3" H 1625 885 30  0000 C CNN
 	1    1625 775 
 	1    0    0    -1  
-$EndComp
-$Comp
-L C C2
-U 1 1 4E0B1D28
-P 1975 1125
-F 0 "C2" H 2075 1075 60  0000 C CNB
-F 1 "100nF" H 1575 1125 60  0000 C CNN
-F 2 "Pkg" H 1975 900 30  0001 C CNN
-	1    1975 1125
-	-1   0    0    1   
 $EndComp
 $Comp
 L C C1
