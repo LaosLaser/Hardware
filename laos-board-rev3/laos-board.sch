@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 02 Jun 2012 05:12:06 PM CEST
+EESchema Schematic File Version 2  date Sat 02 Jun 2012 06:00:04 PM CEST
 LIBS:laos_kicad_lib
 LIBS:power
 LIBS:74xx
@@ -57,6 +57,30 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
+	10050 6700 12200 6700
+Wire Wire Line
+	10050 6600 12500 6600
+Wire Wire Line
+	10050 6500 12200 6500
+Wire Wire Line
+	10050 6400 12500 6400
+Wire Wire Line
+	12200 6700 12200 6650
+Wire Wire Line
+	12200 6650 12600 6650
+Wire Wire Line
+	12600 6650 12600 6600
+Wire Wire Line
+	12600 6600 12800 6600
+Wire Wire Line
+	12200 6500 12200 6450
+Wire Wire Line
+	12200 6450 12600 6450
+Wire Wire Line
+	12600 6450 12600 6400
+Wire Wire Line
+	12600 6400 12800 6400
+Wire Wire Line
 	12200 4750 10050 4750
 Wire Wire Line
 	12200 4950 10050 4950
@@ -73,11 +97,7 @@ Wire Wire Line
 Wire Wire Line
 	12200 7000 12800 7000
 Connection ~ 12200 6700
-Wire Wire Line
-	12800 6700 10050 6700
 Connection ~ 12200 6500
-Wire Wire Line
-	12800 6500 10050 6500
 Connection ~ 1600 8700
 Wire Wire Line
 	2050 8700 -550 8700
@@ -1018,11 +1038,7 @@ Wire Wire Line
 Wire Wire Line
 	-400 8800 1800 8800
 Connection ~ 1600 8800
-Wire Wire Line
-	12800 6400 10050 6400
 Connection ~ 12200 6400
-Wire Wire Line
-	12800 6600 10050 6600
 Connection ~ 12200 6600
 Wire Wire Line
 	13400 11600 13400 7300
@@ -1032,6 +1048,14 @@ Wire Wire Line
 	13700 12000 13700 7200
 Wire Wire Line
 	13700 7200 12800 7200
+Wire Wire Line
+	12800 6500 12500 6500
+Wire Wire Line
+	12500 6500 12500 6400
+Wire Wire Line
+	12500 6600 12500 6700
+Wire Wire Line
+	12500 6700 12800 6700
 NoConn ~ 12800 7500
 NoConn ~ 12800 7400
 NoConn ~ 12800 6900
