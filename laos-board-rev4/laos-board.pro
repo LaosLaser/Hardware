@@ -1,4 +1,4 @@
-update=Sun 30 Sep 2012 04:27:31 PM CEST
+update=Sun 30 Sep 2012 05:19:41 PM CEST
 last_client=eeschema
 [pcbnew]
 version=1
@@ -96,3 +96,4 @@ LibName39=ttl_ieee
 LibName40=valves
 LibName41=video
 LibName42=xilinx
+LibName43=rj11
