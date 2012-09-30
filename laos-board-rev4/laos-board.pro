@@ -1,5 +1,5 @@
-update=Sun 30 Sep 2012 05:19:41 PM CEST
-last_client=eeschema
+update=Sun 30 Sep 2012 06:16:18 PM CEST
+last_client=kicad
 [pcbnew]
 version=1
 PadDrlX=320
@@ -97,3 +97,5 @@ LibName40=valves
 LibName41=video
 LibName42=xilinx
 LibName43=rj11
+[general]
+version=1
