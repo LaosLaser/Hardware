@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-02-06 BZR 3180)-stable date = Sun 30 Sep 2012 05:27:52 PM CEST
+Cmp-Mod V01 Created by CvPcb (2012-02-06 BZR 3180)-stable date = Mon 01 Oct 2012 11:29:20 AM CEST
 
 BeginCmp
 TimeStamp = /4E0B1D13;
@@ -47,6 +47,13 @@ TimeStamp = /4E0B02F9;
 Reference = C8;
 ValeurCmp = 100nF;
 IdModule  = C_CER;
+EndCmp
+
+BeginCmp
+TimeStamp = /506865CC;
+Reference = CAN1;
+ValeurCmp = RJ12;
+IdModule  = RJ12_E;
 EndCmp
 
 BeginCmp
@@ -117,13 +124,6 @@ TimeStamp = /4E0CF8D6;
 Reference = J1;
 ValeurCmp = USB-A;
 IdModule  = con-usb-USB-A-H;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E0CF95F;
-Reference = J2;
-ValeurCmp = CAN;
-IdModule  = RJ12_E;
 EndCmp
 
 BeginCmp
@@ -425,6 +425,13 @@ TimeStamp = /4FCA2303;
 Reference = P1;
 ValeurCmp = FLATCONN;
 IdModule  = FLAT-12;
+EndCmp
+
+BeginCmp
+TimeStamp = /506966F5;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = SIL-6;
 EndCmp
 
 BeginCmp
