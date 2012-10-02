@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-02-06 BZR 3180)-stable date = Mon 01 Oct 2012 11:29:20 AM CEST
+Cmp-Mod V01 Created by CvPcb (2012-02-06 BZR 3180)-stable date = Tue 02 Oct 2012 08:27:01 PM CEST
 
 BeginCmp
 TimeStamp = /4E0B1D13;
@@ -46,6 +46,41 @@ BeginCmp
 TimeStamp = /4E0B02F9;
 Reference = C8;
 ValeurCmp = 100nF;
+IdModule  = C_CER;
+EndCmp
+
+BeginCmp
+TimeStamp = /506AAD2D;
+Reference = C9;
+ValeurCmp = 100uF;
+IdModule  = C1V7H;
+EndCmp
+
+BeginCmp
+TimeStamp = /506AAD1E;
+Reference = C10;
+ValeurCmp = 100uF;
+IdModule  = C1V7H;
+EndCmp
+
+BeginCmp
+TimeStamp = /506AAD0F;
+Reference = C11;
+ValeurCmp = 100uF;
+IdModule  = C1V7H;
+EndCmp
+
+BeginCmp
+TimeStamp = /506A9A52;
+Reference = C13;
+ValeurCmp = 22nF;
+IdModule  = C_CER;
+EndCmp
+
+BeginCmp
+TimeStamp = /506A9A61;
+Reference = C14;
+ValeurCmp = 22nF;
 IdModule  = C_CER;
 EndCmp
 
@@ -708,10 +743,10 @@ IdModule  = TO220V-123;
 EndCmp
 
 BeginCmp
-TimeStamp = /506860E1;
+TimeStamp = /506A9571;
 Reference = U4;
-ValeurCmp = MCP1703;
-IdModule  = SOT223;
+ValeurCmp = SP6205;
+IdModule  = sot323-5;
 EndCmp
 
 EndListe
