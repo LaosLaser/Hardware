@@ -1,17 +1,17 @@
-Cmp-Mod V01 Created by CvPcb (2012-02-06 BZR 3180)-stable date = Tue 02 Oct 2012 08:27:01 PM CEST
+Cmp-Mod V01 Created by CvPcb (2012-02-06 BZR 3180)-stable date = Sat 06 Oct 2012 10:07:15 PM CEST
 
 BeginCmp
 TimeStamp = /4E0B1D13;
 Reference = C1;
 ValeurCmp = 100nF;
-IdModule  = C_CER;
+IdModule  = c_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DE69E;
 Reference = C3;
 ValeurCmp = 100nF;
-IdModule  = C_CER;
+IdModule  = c_1206;
 EndCmp
 
 BeginCmp
@@ -25,7 +25,7 @@ BeginCmp
 TimeStamp = /4E0DFB41;
 Reference = C5;
 ValeurCmp = 100nF;
-IdModule  = C_CER;
+IdModule  = c_1206;
 EndCmp
 
 BeginCmp
@@ -39,14 +39,14 @@ BeginCmp
 TimeStamp = /4E0B0453;
 Reference = C7;
 ValeurCmp = 22nF;
-IdModule  = C_CER;
+IdModule  = c_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0B02F9;
 Reference = C8;
 ValeurCmp = 100nF;
-IdModule  = C_CER;
+IdModule  = c_1206;
 EndCmp
 
 BeginCmp
@@ -74,14 +74,14 @@ BeginCmp
 TimeStamp = /506A9A52;
 Reference = C13;
 ValeurCmp = 22nF;
-IdModule  = C_CER;
+IdModule  = c_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /506A9A61;
 Reference = C14;
 ValeurCmp = 22nF;
-IdModule  = C_CER;
+IdModule  = c_1206;
 EndCmp
 
 BeginCmp
@@ -95,21 +95,21 @@ BeginCmp
 TimeStamp = /4E0DC498;
 Reference = D1;
 ValeurCmp = LEDR;
-IdModule  = LED-3MM;
+IdModule  = LED-1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DF80D;
 Reference = D2;
 ValeurCmp = LEDY;
-IdModule  = LED-3MM;
+IdModule  = LED-1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DF940;
 Reference = D3;
 ValeurCmp = LEDG;
-IdModule  = LED-3MM;
+IdModule  = LED-1206;
 EndCmp
 
 BeginCmp
@@ -487,238 +487,238 @@ BeginCmp
 TimeStamp = /4E0E0A39;
 Reference = R1;
 ValeurCmp = 120R;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DC385;
 Reference = R2;
 ValeurCmp = 1K;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DC3A9;
 Reference = R3;
 ValeurCmp = 1K;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DC48C;
 Reference = R4;
 ValeurCmp = 10K;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DF80E;
 Reference = R5;
 ValeurCmp = 10K;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DE181;
 Reference = R6;
 ValeurCmp = 1K;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0AEA02;
 Reference = R7;
 ValeurCmp = 2K2;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0B0D49;
 Reference = R8;
 ValeurCmp = 2K2;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DE183;
 Reference = R9;
 ValeurCmp = 10K;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DBE77;
 Reference = R10;
 ValeurCmp = 10k;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DDF5F;
 Reference = R11;
 ValeurCmp = 1K;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DBEB5;
 Reference = R12;
 ValeurCmp = 1k;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DDF5D;
 Reference = R13;
 ValeurCmp = 10K;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DDF27;
 Reference = R14;
 ValeurCmp = 1K;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DFE0E;
 Reference = R15;
 ValeurCmp = 1k;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DDF29;
 Reference = R16;
 ValeurCmp = 10K;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DFE03;
 Reference = R17;
 ValeurCmp = 1k;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0B2CD5;
 Reference = R18;
 ValeurCmp = 10k;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0B2CE4;
 Reference = R19;
 ValeurCmp = 10k;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DC959;
 Reference = R20;
 ValeurCmp = 1K;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0B2CEC;
 Reference = R21;
 ValeurCmp = 10k;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0B2CED;
 Reference = R22;
 ValeurCmp = 10k;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0B2871;
 Reference = R23;
 ValeurCmp = 1K;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0B287A;
 Reference = R24;
 ValeurCmp = 1K;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DC957;
 Reference = R25;
 ValeurCmp = 10K;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0B287C;
 Reference = R26;
 ValeurCmp = 1K;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0B2880;
 Reference = R27;
 ValeurCmp = 1K;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0B30D5;
 Reference = R28;
 ValeurCmp = 330R;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0B30D4;
 Reference = R29;
 ValeurCmp = 330R;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0DF93F;
 Reference = R30;
 ValeurCmp = 1k;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0B30D3;
 Reference = R31;
 ValeurCmp = 330R;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E0B30D2;
 Reference = R32;
 ValeurCmp = 330R;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FC3E8A7;
 Reference = R33;
 ValeurCmp = 1K;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FC3F726;
 Reference = R34;
 ValeurCmp = 100;
-IdModule  = R4;
+IdModule  = r_1206;
 EndCmp
 
 BeginCmp
