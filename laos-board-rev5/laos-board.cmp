@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Thu 19 Dec 2013 21:00:56 CET
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Mon 30 Dec 2013 02:28:23 PM CET
 
 BeginCmp
 TimeStamp = /4E0B1D13;
@@ -73,7 +73,7 @@ EndCmp
 BeginCmp
 TimeStamp = /506865CC;
 Reference = CAN1;
-ValeurCmp = RJ12;
+ValeurCmp = Molex_95501-2641;
 IdModule  = RJ12_MOLEX_95501-2641;
 EndCmp
 
@@ -109,7 +109,7 @@ BeginCmp
 TimeStamp = /4E1435F4;
 Reference = H2;
 ValeurCmp = MOUNT_HOLE;
-IdModule  = HOLE_3MM;
+IdModule  = HOLE_3MM_OVAL;
 EndCmp
 
 BeginCmp
