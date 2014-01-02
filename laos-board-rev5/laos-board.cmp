@@ -1,8 +1,15 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Mon 30 Dec 2013 02:28:23 PM CET
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Wed 01 Jan 2014 05:19:47 PM CET
 
 BeginCmp
 TimeStamp = /4E0B1D13;
 Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = C_CER;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C4128F;
+Reference = C2;
 ValeurCmp = 100nF;
 IdModule  = C_CER;
 EndCmp
@@ -169,13 +176,6 @@ IdModule  = CONN_3;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E0DE17A;
-Reference = J6;
-ValeurCmp = JP;
-IdModule  = SJ;
-EndCmp
-
-BeginCmp
 TimeStamp = /4E0DE182;
 Reference = J7;
 ValeurCmp = JP_3;
@@ -225,13 +225,6 @@ IdModule  = CONN_4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E0DDF66;
-Reference = J15;
-ValeurCmp = JP;
-IdModule  = SJ;
-EndCmp
-
-BeginCmp
 TimeStamp = /4E0DDF5E;
 Reference = J16;
 ValeurCmp = JP_3;
@@ -255,13 +248,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4E0DDF64;
 Reference = J19;
-ValeurCmp = JP;
-IdModule  = SJ;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E0DDF20;
-Reference = J21;
 ValeurCmp = JP;
 IdModule  = SJ;
 EndCmp
@@ -578,7 +564,7 @@ BeginCmp
 TimeStamp = /4E0B10C0;
 Reference = U2;
 ValeurCmp = SDCARD;
-IdModule  = HIROSE_DM1B-DSF-PEJ;
+IdModule  = HIROSE_DM1B-DSF-PEJ_MOLEX_502774-0891;
 EndCmp
 
 BeginCmp

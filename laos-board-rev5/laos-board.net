@@ -1,543 +1,522 @@
-# EESchema Netlist Version 1.1 created  Wed 01 Jan 2014 02:08:39 PM CET
+# EESchema Netlist Version 1.1 created  Wed 01 Jan 2014 05:19:47 PM CET
 (
- ( /52C4128F C_CER  C2 100nF {Lib=C}
-  (    1 GND )
-  (    2 +5V )
+ ( /4E0B1D13 C_CER C1 100nF
+  ( 1 GND )
+  ( 2 +3V3 )
  )
- ( /506AAD2D C1V7HF  C9 100uF {Lib=CAP_POL}
-  (    1 VMOT )
-  (    2 GND )
+ ( /52C4128F C_CER C2 100nF
+  ( 1 GND )
+  ( 2 +5V )
  )
- ( /506AAD1E C1V7HF  C10 100uF {Lib=CAP_POL}
-  (    1 VMOT )
-  (    2 GND )
+ ( /4E0DE69E C_CER C3 100nF
+  ( 1 GND )
+  ( 2 VMOT )
  )
- ( /506AAD0F C1V7HF  C11 100uF {Lib=CAP_POL}
-  (    1 VMOT )
-  (    2 GND )
+ ( /4E0DE6FC CCAP_5MM C4 1000uF
+  ( 1 VMOT )
+  ( 2 GND )
  )
- ( /506865CC RJ12_MOLEX_95501-2641  CAN1 Molex_95501-2641 {Lib=RJ12}
-  (    1 ? )
-  (    2 GND )
-  (    3 /CANL )
-  (    4 /CANH )
-  (    5 +5V )
-  (    6 ? )
-  (    7 ? )
-  (    8 ? )
+ ( /4E0DFB41 C_CER C5 100nF
+  ( 1 N-000006 )
+  ( 2 GND )
  )
- ( /4FCA2303 FLAT-12  P1 FLATCONN {Lib=CONN_12}
-  (    1 ? )
-  (    2 ? )
-  (    3 /Vsensor )
-  (    4 /YHome )
-  (    5 /XHome )
-  (    6 GND )
-  (    7 ? )
-  (    8 ? )
-  (    9 /X_1A/Step )
-  (   10 /X_1B/Dir )
-  (   11 /X_2B/+ )
-  (   12 /X_2A/Enable )
+ ( /4E0DE760 CCAP_3.5MM C6 100uF
+  ( 1 VCPU )
+  ( 2 GND )
  )
- ( /4FC3F726 R4  R34 100 {Lib=R}
-  (    1 N-000037 )
-  (    2 N-000074 )
+ ( /4E0B0453 C_CER C7 22nF
+  ( 1 GND )
+  ( 2 VCPU )
  )
- ( /4FC3E8A7 R4  R33 1K {Lib=R}
-  (    1 N-000006 )
-  (    2 N-000075 )
+ ( /4E0B02F9 C_CER C8 100nF
+  ( 1 GND )
+  ( 2 +5V )
  )
- ( /4FC3D947 SIL-4a  J43 CONN_4 {Lib=CONN_4}
-  (    1 /Vsensor )
-  (    2 +5V )
-  (    3 VCPU )
-  (    4 VMOT )
+ ( /506AAD2D C1V7HF C9 100uF
+  ( 1 VMOT )
+  ( 2 GND )
  )
- ( /4EADB8C1 CONN_3  J5 CONN_3 {Lib=CONN_3}
-  (    1 VMOT )
-  (    2 GND )
-  (    3 VCPU )
+ ( /506AAD1E C1V7HF C10 100uF
+  ( 1 VMOT )
+  ( 2 GND )
  )
- ( /4E998EA1 SIL-3  J42 O2_SRC {Lib=JP3}
-  (    1 /LaserPWM )
-  (    2 N-000027 )
-  (    3 /ExhaustEnable )
+ ( /506AAD0F C1V7HF C11 100uF
+  ( 1 VMOT )
+  ( 2 GND )
  )
- ( /4E998E33 SIL-3  J41 O1_SRC {Lib=JP3}
-  (    1 /LaserOn )
-  (    2 N-000025 )
-  (    3 /LaserEnable )
+ ( /506865CC RJ12_MOLEX_95501-2641 CAN1 Molex_95501-2641
+  ( 1 ? )
+  ( 2 GND )
+  ( 3 /CANL )
+  ( 4 /CANH )
+  ( 5 +5V )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
  )
- ( /4E7890F5 SIL-2  J40 JP {Lib=JP}
-  (    1 VCPU )
-  (    2 VMOT )
+ ( /4E0DC498 LED-3MM D1 LEDR
+  ( 1 N-000082 )
+  ( 2 /DriverEnable )
  )
- ( /4E1435F8 HOLE_3MM  H4 MOUNT_HOLE {Lib=MOUNT_HOLE}
+ ( /4E0DF80D LED-3MM D2 LEDY
+  ( 1 N-000008 )
+  ( 2 GND )
  )
- ( /4E1435F7 HOLE_3MM  H3 MOUNT_HOLE {Lib=MOUNT_HOLE}
+ ( /4E0DF940 LED-3MM D3 LEDG
+  ( 1 N-000007 )
+  ( 2 GND )
  )
- ( /4E1435F4 HOLE_3MM  H2 MOUNT_HOLE {Lib=MOUNT_HOLE}
+ ( /4E1435EA HOLE_3MM H1 MOUNT_HOLE
  )
- ( /4E1435EA HOLE_3MM  H1 MOUNT_HOLE {Lib=MOUNT_HOLE}
+ ( /4E1435F4 HOLE_3MM_OVAL H2 MOUNT_HOLE
  )
- ( /4E0E12DD SIL-3  J28 VSENSOR {Lib=JP3}
-  (    1 +5V )
-  (    2 N-000024 )
-  (    3 VCPU )
+ ( /4E1435F7 HOLE_3MM H3 MOUNT_HOLE
  )
- ( /4E0E0A39 R4  R1 120R {Lib=R}
-  (    1 /CANL )
-  (    2 /CANH )
+ ( /4E1435F8 HOLE_3MM H4 MOUNT_HOLE
  )
- ( /4E0DFE0E R4  R15 1k {Lib=R}
-  (    1 N-000025 )
-  (    2 N-000026 )
+ ( /4E0B282E 16DIP300-ELL IC1 KB847
+  ( 1 /Vsensor )
+  ( 2 N-000041 )
+  ( 3 /Vsensor )
+  ( 4 N-000042 )
+  ( 5 /Vsensor )
+  ( 6 N-000043 )
+  ( 7 /Vsensor )
+  ( 8 N-000044 )
+  ( 9 GND )
+  ( 10 /YHome_MCU )
+  ( 11 GND )
+  ( 12 /XHome_MCU )
+  ( 13 GND )
+  ( 14 /Z-_Limit_MCU )
+  ( 15 GND )
+  ( 16 /Z+_Limit_MCU )
  )
- ( /4E0DFE03 R4  R17 1k {Lib=R}
-  (    1 N-000027 )
-  (    2 N-000028 )
+ ( /4E0B30D7 16DIP300-ELL IC2 KB847
+  ( 1 N-000081 )
+  ( 2 /ExhaustEnable )
+  ( 3 N-000048 )
+  ( 4 /LaserEnable )
+  ( 5 N-000049 )
+  ( 6 /LaserPWM )
+  ( 7 N-000050 )
+  ( 8 /LaserOn )
+  ( 9 N-000045 )
+  ( 10 N-000077 )
+  ( 11 N-000046 )
+  ( 12 N-000076 )
+  ( 13 N-000047 )
+  ( 14 N-000080 )
+  ( 15 N-000079 )
+  ( 16 N-000078 )
  )
- ( /4E0DFDAD TO220V-BCE  Q1 TIP110 {Lib=TIP115}
-  (    B N-000026 )
-  (    C N-000005 )
-  (    E GND )
- )
- ( /4E0DFD81 CONN_4  J27 OUTPUT {Lib=CONN_4}
-  (    1 N-000024 )
-  (    2 N-000005 )
-  (    3 N-000088 )
-  (    4 GND )
- )
- ( /4E0DFD48 TO220V-BCE  Q2 TIP110 {Lib=TIP115}
-  (    B N-000028 )
-  (    C N-000088 )
-  (    E GND )
- )
- ( /4E0DFB41 C_CER  C5 100nF {Lib=C}
-  (    1 N-000006 )
-  (    2 GND )
- )
- ( /4E0DF940 LED-3MM  D3 LEDG {Lib=LED}
-  (    1 N-000007 )
-  (    2 GND )
- )
- ( /4E0DF93F R4  R30 1k {Lib=R}
-  (    1 +5V )
-  (    2 N-000007 )
- )
- ( /4E0DF80E R4  R5 1K {Lib=R}
-  (    1 N-000008 )
-  (    2 VMOT )
- )
- ( /4E0DF80D LED-3MM  D2 LEDY {Lib=LED}
-  (    1 N-000008 )
-  (    2 GND )
- )
- ( /4E0DE760 CCAP_3.5MM  C6 100uF {Lib=CAP_POL}
-  (    1 VCPU )
-  (    2 GND )
- )
- ( /4E0DE6FC CCAP_5MM  C4 1000uF {Lib=CAP_POL}
-  (    1 VMOT )
-  (    2 GND )
- )
- ( /4E0DE69E C_CER  C3 100nF {Lib=C}
-  (    1 GND )
-  (    2 VMOT )
- )
- ( /4E0AF935 MBED  J11 MBED_NXP {Lib=MBED}
-  (    1 GND )
-  (    2 +5V )
-  (    3 ? )
-  (    4 ? )
-  (    5 /LaserOn )
-  (    6 /ExhaustEnable )
-  (    7 /DriverEnable )
-  (    8 /XHome_MCU )
-  (    9 /SDA )
-  (   10 /SCL )
-  (   11 N-000053 )
-  (   12 N-000051 )
-  (   13 N-000054 )
-  (   14 N-000052 )
-  (   15 /Z+_Limit_MCU )
-  (   16 /Z-_Limit_MCU )
-  (   17 /YHome_MCU )
-  (   18 N-000037 )
-  (   19 N-000006 )
-  (   20 /XSTEP )
-  (   21 /LaserEnable )
-  (   22 /LaserPWM )
-  (   23 /XDIR )
-  (   24 /XSTEP )
-  (   25 /YDIR )
-  (   26 /YSTEP )
-  (   27 /ZDIR )
-  (   28 /ZSTEP )
-  (   29 /CAN_TX )
-  (   30 /CAN_RX )
-  (   31 N-000073 )
-  (   32 N-000004 )
-  (   33 /RX+ )
-  (   34 /RX- )
-  (   35 /TX+ )
-  (   36 /TX- )
-  (   37 ? )
-  (   38 ? )
-  (   39 /+5V_USB )
-  (   40 +3V3 )
- )
- ( /4E0DE182 SJ_3  J7 JP_3 {Lib=JP_3}
-  (    1 +3V3 )
-  (    2 +3V3 )
-  (    3 +3V3 )
-  (    4 +3V3 )
-  (    5 +3V3 )
-  (    6 +3V3 )
- )
- ( /4E0DE180 CONN_5  J9 ZAXIS {Lib=CONN_5}
-  (    1 /Z_2B/+ )
-  (    2 /Z_2A/Enable )
-  (    3 /Z_1A/Step )
-  (    4 /Z_1B/Dir )
-  (    5 GND )
- )
- ( /4E0DE17D POLOLU1201  J8 POLOLU1201 {Lib=POLOLU1201}
-  (    1 /DriverEnable )
-  (    2 +3V3 )
-  (    3 +3V3 )
-  (    4 +3V3 )
-  (    5 N-000086 )
-  (    6 N-000086 )
-  (    7 /ZSTEP )
-  (    8 /ZDIR )
-  (    9 GND )
-  (   10 +3V3 )
-  (   11 /Z_1B/Dir )
-  (   12 /Z_1A/Step )
-  (   13 /Z_2A/Enable )
-  (   14 /Z_2B/+ )
-  (   15 GND )
-  (   16 VMOT )
- )
- ( /4E0DE17C SJ  J12 JP {Lib=JP}
-  (    1 GND )
-  (    2 GND )
- )
- ( /4E0DDF64 SJ  J19 JP {Lib=JP}
-  (    1 GND )
-  (    2 GND )
- )
- ( /4E0DDF63 POLOLU1201  J17 POLOLU1201 {Lib=POLOLU1201}
-  (    1 /DriverEnable )
-  (    2 +3V3 )
-  (    3 +3V3 )
-  (    4 +3V3 )
-  (    5 N-000066 )
-  (    6 N-000066 )
-  (    7 /YSTEP )
-  (    8 /YDIR )
-  (    9 GND )
-  (   10 +3V3 )
-  (   11 /Y_1B/Dir )
-  (   12 /Y_1A/Step )
-  (   13 /Y_2A/Enable )
-  (   14 /Y_2B/+ )
-  (   15 GND )
-  (   16 VMOT )
- )
- ( /4E0DDF60 CONN_5  J18 YAXIS {Lib=CONN_5}
-  (    1 /Y_2B/+ )
-  (    2 /Y_2A/Enable )
-  (    3 /Y_1A/Step )
-  (    4 /Y_1B/Dir )
-  (    5 GND )
- )
- ( /4E0DDF5E SJ_3  J16 JP_3 {Lib=JP_3}
-  (    1 +3V3 )
-  (    2 +3V3 )
-  (    3 +3V3 )
-  (    4 +3V3 )
-  (    5 +3V3 )
-  (    6 +3V3 )
- )
- ( /4E0DDF28 SJ_3  J22 JP_3 {Lib=JP_3}
-  (    1 +3V3 )
-  (    2 +3V3 )
-  (    3 +3V3 )
-  (    4 +3V3 )
-  (    5 +3V3 )
-  (    6 +3V3 )
- )
- ( /4E0DDF26 CONN_5  J24 XAXIS {Lib=CONN_5}
-  (    1 /X_2B/+ )
-  (    2 /X_2A/Enable )
-  (    3 /X_1A/Step )
-  (    4 /X_1B/Dir )
-  (    5 GND )
- )
- ( /4E0DDF23 POLOLU1201  J23 POLOLU1201 {Lib=POLOLU1201}
-  (    1 /DriverEnable )
-  (    2 +3V3 )
-  (    3 +3V3 )
-  (    4 +3V3 )
-  (    5 N-000087 )
-  (    6 N-000087 )
-  (    7 /XSTEP )
-  (    8 /XDIR )
-  (    9 GND )
-  (   10 +3V3 )
-  (   11 /X_1B/Dir )
-  (   12 /X_1A/Step )
-  (   13 /X_2A/Enable )
-  (   14 /X_2B/+ )
-  (   15 GND )
-  (   16 VMOT )
- )
- ( /4E0DDF22 SJ  J25 JP {Lib=JP}
-  (    1 GND )
-  (    2 GND )
- )
- ( /4E0DC498 LED-3MM  D1 LEDR {Lib=LED}
-  (    1 N-000082 )
-  (    2 /DriverEnable )
- )
- ( /4E0DC48C R4  R4 1K {Lib=R}
-  (    1 N-000082 )
-  (    2 +3V3 )
- )
- ( /4E0DC3A9 R4  R3 1K {Lib=R}
-  (    1 +3V3 )
-  (    2 N-000083 )
- )
- ( /4E0DC385 R4  R2 1K {Lib=R}
-  (    1 +3V3 )
-  (    2 N-000084 )
- )
- ( /4E0DBEB5 R4  R12 1k {Lib=R}
-  (    1 GND )
-  (    2 N-000006 )
- )
- ( /4E0DBE77 R4  R10 10k {Lib=R}
-  (    1 N-000006 )
-  (    2 VMOT )
- )
- ( /4E0DBB68 8DIP300-ELL  U1 65HVD251 {Lib=65HVD251}
-  (    1 /CAN_TX )
-  (    2 GND )
-  (    3 +5V )
-  (    4 /CAN_RX )
-  (    5 ? )
-  (    6 /CANL )
-  (    7 /CANH )
-  (    8 GND )
- )
- ( /4E0CF8D6 con-usb-USB-A-H  J1 USB-A {Lib=USB-A}
-  (   D+ N-000073 )
-  (   D- N-000004 )
-  (  GND GND )
+ ( /4E0CF8D6 con-usb-USB-A-H J1 USB-A
+  ( D+ N-000073 )
+  ( D- N-000004 )
+  ( GND GND )
   ( VBUS /+5V_USB )
  )
- ( /4E0CEE9F CONN_4  J14 ANALOG {Lib=CONN_4}
-  (    1 +3V3 )
-  (    2 N-000074 )
-  (    3 N-000075 )
-  (    4 GND )
+ ( /4E0B0167 SJ J3 USBPWR
+  ( 1 +5V )
+  ( 2 /+5V_USB )
  )
- ( /4E0B31B4 CONN_4  J39 OUTPUT34 {Lib=CONN_4}
-  (    1 N-000076 )
-  (    2 N-000046 )
-  (    3 N-000077 )
-  (    4 N-000045 )
+ ( /4E0B182D RJ45_HALO_HFJ11 J4 MAGJACK
+  ( 1 /TX+ )
+  ( 2 +3V3 )
+  ( 3 /TX- )
+  ( 4 /RX+ )
+  ( 5 +3V3 )
+  ( 6 /RX- )
+  ( 8 GND )
+  ( 9 N-000084 )
+  ( 10 GND )
+  ( 11 N-000083 )
+  ( 12 GND )
+  ( 13 GND )
  )
- ( /4E0B3171 CONN_4  J37 OUTPUT12 {Lib=CONN_4}
-  (    1 N-000078 )
-  (    2 N-000079 )
-  (    3 N-000080 )
-  (    4 N-000047 )
+ ( /4EADB8C1 CONN_3 J5 CONN_3
+  ( 1 VMOT )
+  ( 2 GND )
+  ( 3 VCPU )
  )
- ( /4E0B30D7 16DIP300-ELL  IC2 KB847 {Lib=KB847}
-  (    1 N-000081 )
-  (    2 /ExhaustEnable )
-  (    3 N-000048 )
-  (    4 /LaserEnable )
-  (    5 N-000049 )
-  (    6 /LaserPWM )
-  (    7 N-000050 )
-  (    8 /LaserOn )
-  (    9 N-000045 )
-  (   10 N-000077 )
-  (   11 N-000046 )
-  (   12 N-000076 )
-  (   13 N-000047 )
-  (   14 N-000080 )
-  (   15 N-000079 )
-  (   16 N-000078 )
+ ( /4E0DE182 SJ_3 J7 JP_3
+  ( 1 +3V3 )
+  ( 2 +3V3 )
+  ( 3 +3V3 )
+  ( 4 +3V3 )
+  ( 5 +3V3 )
+  ( 6 +3V3 )
  )
- ( /4E0B30D5 R4  R28 330R {Lib=R}
-  (    1 N-000081 )
-  (    2 +3V3 )
+ ( /4E0DE17D POLOLU1201 J8 POLOLU1201
+  ( 1 /DriverEnable )
+  ( 2 +3V3 )
+  ( 3 +3V3 )
+  ( 4 +3V3 )
+  ( 5 N-000086 )
+  ( 6 N-000086 )
+  ( 7 /ZSTEP )
+  ( 8 /ZDIR )
+  ( 9 GND )
+  ( 10 +3V3 )
+  ( 11 /Z_1B/Dir )
+  ( 12 /Z_1A/Step )
+  ( 13 /Z_2A/Enable )
+  ( 14 /Z_2B/+ )
+  ( 15 GND )
+  ( 16 VMOT )
  )
- ( /4E0B30D4 R4  R29 330R {Lib=R}
-  (    1 N-000048 )
-  (    2 +3V3 )
+ ( /4E0DE180 CONN_5 J9 ZAXIS
+  ( 1 /Z_2B/+ )
+  ( 2 /Z_2A/Enable )
+  ( 3 /Z_1A/Step )
+  ( 4 /Z_1B/Dir )
+  ( 5 GND )
  )
- ( /4E0B30D3 R4  R31 330R {Lib=R}
-  (    1 N-000049 )
-  (    2 +3V3 )
+ ( /4E0B0C20 CONN_4 J10 I2C
+  ( 1 +5V )
+  ( 2 /SCL )
+  ( 3 /SDA )
+  ( 4 GND )
  )
- ( /4E0B30D2 R4  R32 330R {Lib=R}
-  (    1 N-000050 )
-  (    2 +3V3 )
+ ( /4E0AF935 MBED J11 MBED_NXP
+  ( 1 GND )
+  ( 2 +5V )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 /LaserOn )
+  ( 6 /ExhaustEnable )
+  ( 7 /DriverEnable )
+  ( 8 /XHome_MCU )
+  ( 9 /SDA )
+  ( 10 /SCL )
+  ( 11 N-000053 )
+  ( 12 N-000051 )
+  ( 13 N-000054 )
+  ( 14 N-000052 )
+  ( 15 /Z+_Limit_MCU )
+  ( 16 /Z-_Limit_MCU )
+  ( 17 /YHome_MCU )
+  ( 18 N-000037 )
+  ( 19 N-000006 )
+  ( 20 /XSTEP )
+  ( 21 /LaserEnable )
+  ( 22 /LaserPWM )
+  ( 23 /XDIR )
+  ( 24 /XSTEP )
+  ( 25 /YDIR )
+  ( 26 /YSTEP )
+  ( 27 /ZDIR )
+  ( 28 /ZSTEP )
+  ( 29 /CAN_TX )
+  ( 30 /CAN_RX )
+  ( 31 N-000073 )
+  ( 32 N-000004 )
+  ( 33 /RX+ )
+  ( 34 /RX- )
+  ( 35 /TX+ )
+  ( 36 /TX- )
+  ( 37 ? )
+  ( 38 ? )
+  ( 39 /+5V_USB )
+  ( 40 +3V3 )
  )
- ( /4E0B2CED R4  R22 10k {Lib=R}
-  (    1 +3V3 )
-  (    2 /Z+_Limit_MCU )
+ ( /4E0DE17C SJ J12 JP
+  ( 1 GND )
+  ( 2 GND )
  )
- ( /4E0B2CEC R4  R21 10k {Lib=R}
-  (    1 +3V3 )
-  (    2 /Z-_Limit_MCU )
+ ( /4E0CEE9F CONN_4 J14 ANALOG
+  ( 1 +3V3 )
+  ( 2 N-000074 )
+  ( 3 N-000075 )
+  ( 4 GND )
  )
- ( /4E0B2CE4 R4  R19 10k {Lib=R}
-  (    1 +3V3 )
-  (    2 /XHome_MCU )
+ ( /4E0DDF5E SJ_3 J16 JP_3
+  ( 1 +3V3 )
+  ( 2 +3V3 )
+  ( 3 +3V3 )
+  ( 4 +3V3 )
+  ( 5 +3V3 )
+  ( 6 +3V3 )
  )
- ( /4E0B2CD5 R4  R18 10k {Lib=R}
-  (    1 +3V3 )
-  (    2 /YHome_MCU )
+ ( /4E0DDF63 POLOLU1201 J17 POLOLU1201
+  ( 1 /DriverEnable )
+  ( 2 +3V3 )
+  ( 3 +3V3 )
+  ( 4 +3V3 )
+  ( 5 N-000066 )
+  ( 6 N-000066 )
+  ( 7 /YSTEP )
+  ( 8 /YDIR )
+  ( 9 GND )
+  ( 10 +3V3 )
+  ( 11 /Y_1B/Dir )
+  ( 12 /Y_1A/Step )
+  ( 13 /Y_2A/Enable )
+  ( 14 /Y_2B/+ )
+  ( 15 GND )
+  ( 16 VMOT )
  )
- ( /4E0B28EE CONN_4  J34 INPUT34 {Lib=CONN_4}
-  (    1 /Vsensor )
-  (    2 /XHome )
-  (    3 /YHome )
-  (    4 GND )
+ ( /4E0DDF60 CONN_5 J18 YAXIS
+  ( 1 /Y_2B/+ )
+  ( 2 /Y_2A/Enable )
+  ( 3 /Y_1A/Step )
+  ( 4 /Y_1B/Dir )
+  ( 5 GND )
  )
- ( /4E0B28C2 CONN_4  J29 INPUT12 {Lib=CONN_4}
-  (    1 /Vsensor )
-  (    2 /Z+_Limit )
-  (    3 /Z-_Limit )
-  (    4 GND )
+ ( /4E0DDF64 SJ J19 JP
+  ( 1 GND )
+  ( 2 GND )
  )
- ( /4E0B2880 R4  R27 1K {Lib=R}
-  (    1 N-000044 )
-  (    2 /YHome )
+ ( /4E0DDF28 SJ_3 J22 JP_3
+  ( 1 +3V3 )
+  ( 2 +3V3 )
+  ( 3 +3V3 )
+  ( 4 +3V3 )
+  ( 5 +3V3 )
+  ( 6 +3V3 )
  )
- ( /4E0B287C R4  R26 1K {Lib=R}
-  (    1 N-000043 )
-  (    2 /XHome )
+ ( /4E0DDF23 POLOLU1201 J23 POLOLU1201
+  ( 1 /DriverEnable )
+  ( 2 +3V3 )
+  ( 3 +3V3 )
+  ( 4 +3V3 )
+  ( 5 N-000087 )
+  ( 6 N-000087 )
+  ( 7 /XSTEP )
+  ( 8 /XDIR )
+  ( 9 GND )
+  ( 10 +3V3 )
+  ( 11 /X_1B/Dir )
+  ( 12 /X_1A/Step )
+  ( 13 /X_2A/Enable )
+  ( 14 /X_2B/+ )
+  ( 15 GND )
+  ( 16 VMOT )
  )
- ( /4E0B287A R4  R24 1K {Lib=R}
-  (    1 N-000042 )
-  (    2 /Z-_Limit )
+ ( /4E0DDF26 CONN_5 J24 XAXIS
+  ( 1 /X_2B/+ )
+  ( 2 /X_2A/Enable )
+  ( 3 /X_1A/Step )
+  ( 4 /X_1B/Dir )
+  ( 5 GND )
  )
- ( /4E0B2871 R4  R23 1K {Lib=R}
-  (    1 N-000041 )
-  (    2 /Z+_Limit )
+ ( /4E0DDF22 SJ J25 JP
+  ( 1 GND )
+  ( 2 GND )
  )
- ( /4E0B282E 16DIP300-ELL  IC1 KB847 {Lib=KB847}
-  (    1 /Vsensor )
-  (    2 N-000041 )
-  (    3 /Vsensor )
-  (    4 N-000042 )
-  (    5 /Vsensor )
-  (    6 N-000043 )
-  (    7 /Vsensor )
-  (    8 N-000044 )
-  (    9 GND )
-  (   10 /YHome_MCU )
-  (   11 GND )
-  (   12 /XHome_MCU )
-  (   13 GND )
-  (   14 /Z-_Limit_MCU )
-  (   15 GND )
-  (   16 /Z+_Limit_MCU )
+ ( /4E0DFD81 CONN_4 J27 OUTPUT
+  ( 1 N-000024 )
+  ( 2 N-000005 )
+  ( 3 N-000088 )
+  ( 4 GND )
  )
- ( /4E0B1D13 C_CER  C1 100nF {Lib=C}
-  (    1 GND )
-  (    2 +3V3 )
+ ( /4E0E12DD SIL-3-noarrow J28 VSENSOR
+  ( 1 +5V )
+  ( 2 N-000024 )
+  ( 3 VCPU )
  )
- ( /4E0B182D RJ45_HALO_HFJ11  J4 MAGJACK {Lib=MAGJACK}
-  (    1 /TX+ )
-  (    2 +3V3 )
-  (    3 /TX- )
-  (    4 /RX+ )
-  (    5 +3V3 )
-  (    6 /RX- )
-  (    8 GND )
-  (    9 N-000084 )
-  (   10 GND )
-  (   11 N-000083 )
-  (   12 GND )
-  (   13 GND )
+ ( /4E0B28C2 CONN_4 J29 INPUT12
+  ( 1 /Vsensor )
+  ( 2 /Z+_Limit )
+  ( 3 /Z-_Limit )
+  ( 4 GND )
  )
- ( /4E0B10C0 HIROSE_DM1B-DSF-PEJ  U2 SDCARD {Lib=SDCARD}
-  (    1 N-000052 )
-  (    2 N-000053 )
-  (    3 GND )
-  (    4 +3V3 )
-  (    5 N-000054 )
-  (    6 GND )
-  (    7 N-000051 )
-  (    8 ? )
-  (    9 ? )
+ ( /4E0B28EE CONN_4 J34 INPUT34
+  ( 1 /Vsensor )
+  ( 2 /XHome )
+  ( 3 /YHome )
+  ( 4 GND )
  )
- ( /4E0B0D49 R4  R8 2K2 {Lib=R}
-  (    1 /SCL )
-  (    2 +5V )
+ ( /4E0B3171 CONN_4 J37 OUTPUT12
+  ( 1 N-000078 )
+  ( 2 N-000079 )
+  ( 3 N-000080 )
+  ( 4 N-000047 )
  )
- ( /4E0B0C20 CONN_4  J10 I2C {Lib=CONN_4}
-  (    1 +5V )
-  (    2 /SCL )
-  (    3 /SDA )
-  (    4 GND )
+ ( /4E0B31B4 CONN_4 J39 OUTPUT34
+  ( 1 N-000076 )
+  ( 2 N-000046 )
+  ( 3 N-000077 )
+  ( 4 N-000045 )
  )
- ( /4E0B0453 C_CER  C7 22nF {Lib=C}
-  (    1 GND )
-  (    2 VCPU )
+ ( /4E7890F5 SIL-2 J40 JP
+  ( 1 VCPU )
+  ( 2 VMOT )
  )
- ( /4E0B02F9 C_CER  C8 100nF {Lib=C}
-  (    1 GND )
-  (    2 +5V )
+ ( /4E998E33 SIL-3-noarrow J41 O1_SRC
+  ( 1 /LaserOn )
+  ( 2 N-000025 )
+  ( 3 /LaserEnable )
  )
- ( /4E0B0167 SJ  J3 USBPWR {Lib=JP}
-  (    1 +5V )
-  (    2 /+5V_USB )
+ ( /4E998EA1 SIL-3-noarrow J42 O2_SRC
+  ( 1 /LaserPWM )
+  ( 2 N-000027 )
+  ( 3 /ExhaustEnable )
  )
- ( /4E0AFEC4 TO220V-123  U3 7805 {Lib=7805}
-  (    1 VCPU )
-  (    2 GND )
-  (    3 +5V )
+ ( /4FC3D947 SIL-4a J43 CONN_4
+  ( 1 /Vsensor )
+  ( 2 +5V )
+  ( 3 VCPU )
+  ( 4 VMOT )
  )
- ( /4E0AEA02 R4  R7 2K2 {Lib=R}
-  (    1 /SDA )
-  (    2 +5V )
+ ( /4FCA2303 FLAT-12 P1 FLATCONN
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 /Vsensor )
+  ( 4 /YHome )
+  ( 5 /XHome )
+  ( 6 GND )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 /X_1A/Step )
+  ( 10 /X_1B/Dir )
+  ( 11 /X_2B/+ )
+  ( 12 /X_2A/Enable )
+ )
+ ( /4E0DFDAD TO220V-BCE Q1 TIP110
+  ( B N-000026 )
+  ( C N-000005 )
+  ( E GND )
+ )
+ ( /4E0DFD48 TO220V-BCE Q2 TIP110
+  ( B N-000028 )
+  ( C N-000088 )
+  ( E GND )
+ )
+ ( /4E0E0A39 R4 R1 120R
+  ( 1 /CANL )
+  ( 2 /CANH )
+ )
+ ( /4E0DC385 R4 R2 1K
+  ( 1 +3V3 )
+  ( 2 N-000084 )
+ )
+ ( /4E0DC3A9 R4 R3 1K
+  ( 1 +3V3 )
+  ( 2 N-000083 )
+ )
+ ( /4E0DC48C R4 R4 1K
+  ( 1 N-000082 )
+  ( 2 +3V3 )
+ )
+ ( /4E0DF80E R4 R5 1K
+  ( 1 N-000008 )
+  ( 2 VMOT )
+ )
+ ( /4E0AEA02 R4 R7 2K2
+  ( 1 /SDA )
+  ( 2 +5V )
+ )
+ ( /4E0B0D49 R4 R8 2K2
+  ( 1 /SCL )
+  ( 2 +5V )
+ )
+ ( /4E0DBE77 R4 R10 10k
+  ( 1 N-000006 )
+  ( 2 VMOT )
+ )
+ ( /4E0DBEB5 R4 R12 1k
+  ( 1 GND )
+  ( 2 N-000006 )
+ )
+ ( /4E0DFE0E R4 R15 1k
+  ( 1 N-000025 )
+  ( 2 N-000026 )
+ )
+ ( /4E0DFE03 R4 R17 1k
+  ( 1 N-000027 )
+  ( 2 N-000028 )
+ )
+ ( /4E0B2CD5 R4 R18 10k
+  ( 1 +3V3 )
+  ( 2 /YHome_MCU )
+ )
+ ( /4E0B2CE4 R4 R19 10k
+  ( 1 +3V3 )
+  ( 2 /XHome_MCU )
+ )
+ ( /4E0B2CEC R4 R21 10k
+  ( 1 +3V3 )
+  ( 2 /Z-_Limit_MCU )
+ )
+ ( /4E0B2CED R4 R22 10k
+  ( 1 +3V3 )
+  ( 2 /Z+_Limit_MCU )
+ )
+ ( /4E0B2871 R4 R23 1K
+  ( 1 N-000041 )
+  ( 2 /Z+_Limit )
+ )
+ ( /4E0B287A R4 R24 1K
+  ( 1 N-000042 )
+  ( 2 /Z-_Limit )
+ )
+ ( /4E0B287C R4 R26 1K
+  ( 1 N-000043 )
+  ( 2 /XHome )
+ )
+ ( /4E0B2880 R4 R27 1K
+  ( 1 N-000044 )
+  ( 2 /YHome )
+ )
+ ( /4E0B30D5 R4 R28 330R
+  ( 1 N-000081 )
+  ( 2 +3V3 )
+ )
+ ( /4E0B30D4 R4 R29 330R
+  ( 1 N-000048 )
+  ( 2 +3V3 )
+ )
+ ( /4E0DF93F R4 R30 1k
+  ( 1 +5V )
+  ( 2 N-000007 )
+ )
+ ( /4E0B30D3 R4 R31 330R
+  ( 1 N-000049 )
+  ( 2 +3V3 )
+ )
+ ( /4E0B30D2 R4 R32 330R
+  ( 1 N-000050 )
+  ( 2 +3V3 )
+ )
+ ( /4FC3E8A7 R4 R33 1K
+  ( 1 N-000006 )
+  ( 2 N-000075 )
+ )
+ ( /4FC3F726 R4 R34 100
+  ( 1 N-000037 )
+  ( 2 N-000074 )
+ )
+ ( /4E0DBB68 8DIP300-ELL U1 65HVD251
+  ( 1 /CAN_TX )
+  ( 2 GND )
+  ( 3 +5V )
+  ( 4 /CAN_RX )
+  ( 5 ? )
+  ( 6 /CANL )
+  ( 7 /CANH )
+  ( 8 GND )
+ )
+ ( /4E0B10C0 HIROSE_DM1B-DSF-PEJ_MOLEX_502774-0891 U2 SDCARD
+  ( 1 N-000052 )
+  ( 2 N-000053 )
+  ( 3 GND )
+  ( 4 +3V3 )
+  ( 5 N-000054 )
+  ( 6 GND )
+  ( 7 N-000051 )
+  ( 8 ? )
+  ( 9 ? )
+ )
+ ( /4E0AFEC4 TO220V-123 U3 7805
+  ( 1 VCPU )
+  ( 2 GND )
+  ( 3 +5V )
  )
 )
 *
 { Allowed footprints by component:
-$component R34
- R*
-$endlist
-$component R33
- R*
-$endlist
-$component R1
- R*
-$endlist
-$component R15
- R*
-$endlist
-$component R17
- R*
-$endlist
-$component Q1
- TO92-EBC
-$endlist
-$component Q2
- TO92-EBC
-$endlist
-$component D3
+$component D1
  LED-3MM
  LED-5MM
  LED-10MM
@@ -545,12 +524,6 @@ $component D3
  LED-0805
  LED-1206
  LEDV
-$endlist
-$component R30
- R*
-$endlist
-$component R5
- R*
 $endlist
 $component D2
  LED-3MM
@@ -561,7 +534,7 @@ $component D2
  LED-1206
  LEDV
 $endlist
-$component D1
+$component D3
  LED-3MM
  LED-5MM
  LED-10MM
@@ -570,19 +543,67 @@ $component D1
  LED-1206
  LEDV
 $endlist
-$component R4
- R*
+$component Q1
+ TO92-EBC
 $endlist
-$component R3
+$component Q2
+ TO92-EBC
+$endlist
+$component R1
  R*
 $endlist
 $component R2
  R*
 $endlist
-$component R12
+$component R3
+ R*
+$endlist
+$component R4
+ R*
+$endlist
+$component R5
+ R*
+$endlist
+$component R7
+ R*
+$endlist
+$component R8
  R*
 $endlist
 $component R10
+ R*
+$endlist
+$component R12
+ R*
+$endlist
+$component R15
+ R*
+$endlist
+$component R17
+ R*
+$endlist
+$component R18
+ R*
+$endlist
+$component R19
+ R*
+$endlist
+$component R21
+ R*
+$endlist
+$component R22
+ R*
+$endlist
+$component R23
+ R*
+$endlist
+$component R24
+ R*
+$endlist
+$component R26
+ R*
+$endlist
+$component R27
  R*
 $endlist
 $component R28
@@ -591,467 +612,20 @@ $endlist
 $component R29
  R*
 $endlist
+$component R30
+ R*
+$endlist
 $component R31
  R*
 $endlist
 $component R32
  R*
 $endlist
-$component R22
+$component R33
  R*
 $endlist
-$component R21
- R*
-$endlist
-$component R19
- R*
-$endlist
-$component R18
- R*
-$endlist
-$component R27
- R*
-$endlist
-$component R26
- R*
-$endlist
-$component R24
- R*
-$endlist
-$component R23
- R*
-$endlist
-$component R8
- R*
-$endlist
-$component R7
+$component R34
  R*
 $endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 2 "VMOT" "VMOT"
- R5 2
- J8 16
- C3 2
- J23 16
- J17 16
- J40 2
- J5 1
- J43 4
- C4 1
- R10 2
- C11 1
- C10 1
- C9 1
-Net 4 "" ""
- J1 D-
- J11 32
-Net 5 "" ""
- J27 2
- Q1 C
-Net 6 "" ""
- R33 1
- R12 2
- R10 1
- J11 19
- C5 1
-Net 7 "" ""
- R30 2
- D3 1
-Net 8 "" ""
- R5 1
- D2 1
-Net 11 "+3V3" "+3V3"
- J22 5
- J14 1
- R2 1
- R3 1
- R4 2
- J22 6
- J4 5
- J4 2
- C1 2
- U2 4
- R19 1
- R21 1
- R22 1
- R32 2
- R31 2
- R29 2
- R28 2
- R18 1
- J22 4
- J22 3
- J22 2
- J22 1
- J16 6
- J16 5
- J16 4
- J16 3
- J16 2
- J16 1
- J17 10
- J23 10
- J23 4
- J23 3
- J23 2
- J11 40
- J7 5
- J7 6
- J8 10
- J8 4
- J7 4
- J7 3
- J7 2
- J17 4
- J17 3
- J8 2
- J8 3
- J17 2
- J7 1
-Net 12 "/LaserOn" "LaserOn"
- J11 5
- IC2 8
- J41 1
-Net 13 "/LaserPWM" "LaserPWM"
- J11 22
- IC2 6
- J42 1
-Net 14 "/LaserEnable" "LaserEnable"
- IC2 4
- J41 3
- J11 21
-Net 15 "/ExhaustEnable" "ExhaustEnable"
- J42 3
- J11 6
- IC2 2
-Net 16 "/ZSTEP" "ZSTEP"
- J11 28
- J8 7
-Net 17 "/Z 1B/Dir" "Z 1B/Dir"
- J9 4
- J8 11
-Net 18 "/Z 1A/Step" "Z 1A/Step"
- J9 3
- J8 12
-Net 19 "/Z 2A/Enable" "Z 2A/Enable"
- J9 2
- J8 13
-Net 20 "/Z 2B/+" "Z 2B/+"
- J8 14
- J9 1
-Net 21 "/ZDIR" "ZDIR"
- J11 27
- J8 8
-Net 22 "GND" "GND"
- J14 4
- J5 2
- C9 2
- J18 5
- U1 8
- J1 GND
- D2 2
- C2 1
- J8 9
- J12 2
- J12 1
- J8 15
- C10 2
- R12 1
- U1 2
- P1 6
- U2 6
- U2 3
- J9 5
- Q1 E
- J10 4
- C7 1
- C8 1
- U3 2
- J27 4
- IC1 13
- IC1 15
- C1 1
- J34 4
- J29 4
- IC1 9
- IC1 11
- C6 2
- C4 2
- C3 1
- J11 1
- J17 15
- Q2 E
- C5 2
- J23 9
- CAN1 2
- J23 15
- J25 1
- J25 2
- C11 2
- J17 9
- D3 2
- J4 8
- J4 13
- J4 10
- J4 12
- J19 2
- J19 1
- J24 5
-Net 23 "+5V" "+5V"
- R8 2
- J10 1
- J43 2
- C8 2
- J3 1
- U3 3
- R7 2
- J28 1
- R30 1
- CAN1 5
- J11 2
- C2 2
- U1 3
-Net 24 "" ""
- J27 1
- J28 2
-Net 25 "" ""
- J41 2
- R15 1
-Net 26 "" ""
- Q1 B
- R15 2
-Net 27 "" ""
- R17 1
- J42 2
-Net 28 "" ""
- R17 2
- Q2 B
-Net 37 "" ""
- R34 1
- J11 18
-Net 38 "/Vsensor" "Vsensor"
- IC1 7
- IC1 5
- IC1 3
- IC1 1
- J29 1
- J34 1
- P1 3
- J43 1
-Net 39 "/XHome" "XHome"
- R26 2
- J34 2
- P1 5
-Net 40 "/YHome" "YHome"
- R27 2
- J34 3
- P1 4
-Net 41 "" ""
- R23 1
- IC1 2
-Net 42 "" ""
- R24 1
- IC1 4
-Net 43 "" ""
- R26 1
- IC1 6
-Net 44 "" ""
- IC1 8
- R27 1
-Net 45 "" ""
- IC2 9
- J39 4
-Net 46 "" ""
- IC2 11
- J39 2
-Net 47 "" ""
- IC2 13
- J37 4
-Net 48 "" ""
- IC2 3
- R29 1
-Net 49 "" ""
- IC2 5
- R31 1
-Net 50 "" ""
- R32 1
- IC2 7
-Net 51 "" ""
- J11 12
- U2 7
-Net 52 "" ""
- J11 14
- U2 1
-Net 53 "" ""
- U2 2
- J11 11
-Net 54 "" ""
- J11 13
- U2 5
-Net 57 "/SCL" "SCL"
- J10 2
- R8 1
- J11 10
-Net 58 "/SDA" "SDA"
- J11 9
- J10 3
- R7 1
-Net 59 "/DriverEnable" "DriverEnable"
- J8 1
- D1 2
- J23 1
- J11 7
- J17 1
-Net 60 "/XSTEP" "XSTEP"
- J11 20
- J23 7
- J11 24
-Net 61 "/XDIR" "XDIR"
- J23 8
- J11 23
-Net 62 "/X 1B/Dir" "X 1B/Dir"
- P1 10
- J23 11
- J24 4
-Net 63 "/X 1A/Step" "X 1A/Step"
- J24 3
- J23 12
- P1 9
-Net 64 "/X 2A/Enable" "X 2A/Enable"
- J23 13
- P1 12
- J24 2
-Net 65 "/X 2B/+" "X 2B/+"
- J23 14
- J24 1
- P1 11
-Net 66 "" ""
- J17 5
- J17 6
-Net 67 "/YSTEP" "YSTEP"
- J17 7
- J11 26
-Net 68 "/YDIR" "YDIR"
- J17 8
- J11 25
-Net 69 "/Y 2B/+" "Y 2B/+"
- J17 14
- J18 1
-Net 70 "/Y 2A/Enable" "Y 2A/Enable"
- J17 13
- J18 2
-Net 71 "/Y 1A/Step" "Y 1A/Step"
- J18 3
- J17 12
-Net 72 "/Y 1B/Dir" "Y 1B/Dir"
- J18 4
- J17 11
-Net 73 "" ""
- J1 D+
- J11 31
-Net 74 "" ""
- J14 2
- R34 2
-Net 75 "" ""
- J14 3
- R33 2
-Net 76 "" ""
- IC2 12
- J39 1
-Net 77 "" ""
- J39 3
- IC2 10
-Net 78 "" ""
- J37 1
- IC2 16
-Net 79 "" ""
- J37 2
- IC2 15
-Net 80 "" ""
- IC2 14
- J37 3
-Net 81 "" ""
- R28 1
- IC2 1
-Net 82 "" ""
- D1 1
- R4 1
-Net 83 "" ""
- R3 2
- J4 11
-Net 84 "" ""
- R2 2
- J4 9
-Net 86 "" ""
- J8 5
- J8 6
-Net 87 "" ""
- J23 5
- J23 6
-Net 88 "" ""
- J27 3
- Q2 C
-Net 89 "VCPU" "VCPU"
- C7 2
- C6 1
- U3 1
- J5 3
- J40 1
- J28 3
- J43 3
-Net 90 "/CANH" "CANH"
- R1 2
- U1 7
- CAN1 4
-Net 91 "/CANL" "CANL"
- R1 1
- CAN1 3
- U1 6
-Net 92 "/CAN_RX" "CAN_RX"
- U1 4
- J11 30
-Net 93 "/CAN_TX" "CAN_TX"
- J11 29
- U1 1
-Net 94 "/YHome MCU" "YHome MCU"
- IC1 10
- J11 17
- R18 2
-Net 95 "/XHome MCU" "XHome MCU"
- J11 8
- R19 2
- IC1 12
-Net 96 "/Z- Limit MCU" "Z- Limit MCU"
- R21 2
- IC1 14
- J11 16
-Net 97 "/Z+ Limit MCU" "Z+ Limit MCU"
- J11 15
- R22 2
- IC1 16
-Net 98 "/Z+ Limit" "Z+ Limit"
- R23 2
- J29 2
-Net 99 "/Z- Limit" "Z- Limit"
- J29 3
- R24 2
-Net 100 "/+5V USB" "+5V USB"
- J11 39
- J3 2
- J1 VBUS
-Net 101 "/RX-" "RX-"
- J11 34
- J4 6
-Net 102 "/RX+" "RX+"
- J11 33
- J4 4
-Net 103 "/TX-" "TX-"
- J4 3
- J11 36
-Net 104 "/TX+" "TX+"
- J11 35
- J4 1
-}
-#End
