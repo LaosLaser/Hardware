@@ -1,5 +1,0 @@
-LAOS Board v0.3
- Width: 114.3mm 
-Height: 132.1mm
-
-

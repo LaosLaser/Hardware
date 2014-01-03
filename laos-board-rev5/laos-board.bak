@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 01 Jan 2014 05:21:08 PM CET
+EESchema Schematic File Version 2  date Thu 02 Jan 2014 12:04:35 PM CET
 LIBS:laos_kicad_lib
 LIBS:power
 LIBS:74xx
@@ -48,7 +48,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "LaOS Laser Mainboard"
-Date "1 jan 2014"
+Date "2 jan 2014"
 Rev "5"
 Comp "http://www.laoslaser.org"
 Comment1 ""
@@ -2388,7 +2388,7 @@ L SDCARD U2
 U 1 1 4E0B10C0
 P 1550 5100
 F 0 "U2" H 1500 5475 60  0000 C CNN
-F 1 "SDCARD" V 1400 5000 60  0000 C CNN
+F 1 "Hirose DM1B-DSF-PEJ(82) or Molex 502774-0891" H 1800 4500 60  0000 C CNN
 F 2 "HIROSE_DM1B-DSF-PEJ_MOLEX_502774-0891" V 1500 5000 60  0001 C CNN
 F 4 "Hirose/Molex" H 1550 5100 60  0001 C CNN "Manufacturer"
 F 5 "DM1B-DSF-PEJ(82)/502774-0891" H 1550 5100 60  0001 C CNN "Type"
