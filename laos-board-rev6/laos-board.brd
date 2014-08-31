@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sun 31 Aug 2014 13:56:13 CEST
+PCBNEW-BOARD Version 1 date Sun 31 Aug 2014 14:09:17 CEST
 
 # Created by Pcbnew(2012-01-19 BZR 3256)-stable
 
@@ -22,7 +22,7 @@ $SHEETDESCR
 Sheet A4 11700 8267
 Title "LaOS Laser Mainboard"
 Date "31 aug 2014"
-Rev "5"
+Rev "6"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -10686,7 +10686,7 @@ Po 20500 61500 600 600 100 0
 De 21 1 0 Normal L
 $EndTEXTPCB
 $TEXTPCB
-Te "LAOS Board rev5"
+Te "LAOS Board rev6"
 Po 34000 25000 600 600 100 0
 De 21 1 0 Normal C
 $EndTEXTPCB
