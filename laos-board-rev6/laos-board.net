@@ -1,0 +1,631 @@
+# EESchema Netlist Version 1.1 created  Wed 01 Jan 2014 05:19:47 PM CET
+(
+ ( /4E0B1D13 C_CER C1 100nF
+  ( 1 GND )
+  ( 2 +3V3 )
+ )
+ ( /52C4128F C_CER C2 100nF
+  ( 1 GND )
+  ( 2 +5V )
+ )
+ ( /4E0DE69E C_CER C3 100nF
+  ( 1 GND )
+  ( 2 VMOT )
+ )
+ ( /4E0DE6FC CCAP_5MM C4 1000uF
+  ( 1 VMOT )
+  ( 2 GND )
+ )
+ ( /4E0DFB41 C_CER C5 100nF
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /4E0DE760 CCAP_3.5MM C6 100uF
+  ( 1 VCPU )
+  ( 2 GND )
+ )
+ ( /4E0B0453 C_CER C7 22nF
+  ( 1 GND )
+  ( 2 VCPU )
+ )
+ ( /4E0B02F9 C_CER C8 100nF
+  ( 1 GND )
+  ( 2 +5V )
+ )
+ ( /506AAD2D C1V7HF C9 100uF
+  ( 1 VMOT )
+  ( 2 GND )
+ )
+ ( /506AAD1E C1V7HF C10 100uF
+  ( 1 VMOT )
+  ( 2 GND )
+ )
+ ( /506AAD0F C1V7HF C11 100uF
+  ( 1 VMOT )
+  ( 2 GND )
+ )
+ ( /506865CC RJ12_MOLEX_95501-2641 CAN1 Molex_95501-2641
+  ( 1 ? )
+  ( 2 GND )
+  ( 3 /CANL )
+  ( 4 /CANH )
+  ( 5 +5V )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+ )
+ ( /4E0DC498 LED-3MM D1 LEDR
+  ( 1 N-000082 )
+  ( 2 /DriverEnable )
+ )
+ ( /4E0DF80D LED-3MM D2 LEDY
+  ( 1 N-000008 )
+  ( 2 GND )
+ )
+ ( /4E0DF940 LED-3MM D3 LEDG
+  ( 1 N-000007 )
+  ( 2 GND )
+ )
+ ( /4E1435EA HOLE_3MM H1 MOUNT_HOLE
+ )
+ ( /4E1435F4 HOLE_3MM_OVAL H2 MOUNT_HOLE
+ )
+ ( /4E1435F7 HOLE_3MM H3 MOUNT_HOLE
+ )
+ ( /4E1435F8 HOLE_3MM H4 MOUNT_HOLE
+ )
+ ( /4E0B282E 16DIP300-ELL IC1 KB847
+  ( 1 /Vsensor )
+  ( 2 N-000041 )
+  ( 3 /Vsensor )
+  ( 4 N-000042 )
+  ( 5 /Vsensor )
+  ( 6 N-000043 )
+  ( 7 /Vsensor )
+  ( 8 N-000044 )
+  ( 9 GND )
+  ( 10 /YHome_MCU )
+  ( 11 GND )
+  ( 12 /XHome_MCU )
+  ( 13 GND )
+  ( 14 /Z-_Limit_MCU )
+  ( 15 GND )
+  ( 16 /Z+_Limit_MCU )
+ )
+ ( /4E0B30D7 16DIP300-ELL IC2 KB847
+  ( 1 N-000081 )
+  ( 2 /ExhaustEnable )
+  ( 3 N-000048 )
+  ( 4 /LaserEnable )
+  ( 5 N-000049 )
+  ( 6 /LaserPWM )
+  ( 7 N-000050 )
+  ( 8 /LaserOn )
+  ( 9 N-000045 )
+  ( 10 N-000077 )
+  ( 11 N-000046 )
+  ( 12 N-000076 )
+  ( 13 N-000047 )
+  ( 14 N-000080 )
+  ( 15 N-000079 )
+  ( 16 N-000078 )
+ )
+ ( /4E0CF8D6 con-usb-USB-A-H J1 USB-A
+  ( D+ N-000073 )
+  ( D- N-000004 )
+  ( GND GND )
+  ( VBUS /+5V_USB )
+ )
+ ( /4E0B0167 SJ J3 USBPWR
+  ( 1 +5V )
+  ( 2 /+5V_USB )
+ )
+ ( /4E0B182D RJ45_HALO_HFJ11 J4 MAGJACK
+  ( 1 /TX+ )
+  ( 2 +3V3 )
+  ( 3 /TX- )
+  ( 4 /RX+ )
+  ( 5 +3V3 )
+  ( 6 /RX- )
+  ( 8 GND )
+  ( 9 N-000084 )
+  ( 10 GND )
+  ( 11 N-000083 )
+  ( 12 GND )
+  ( 13 GND )
+ )
+ ( /4EADB8C1 CONN_3 J5 CONN_3
+  ( 1 VMOT )
+  ( 2 GND )
+  ( 3 VCPU )
+ )
+ ( /4E0DE182 SJ_3 J7 JP_3
+  ( 1 +3V3 )
+  ( 2 +3V3 )
+  ( 3 +3V3 )
+  ( 4 +3V3 )
+  ( 5 +3V3 )
+  ( 6 +3V3 )
+ )
+ ( /4E0DE17D POLOLU1201 J8 POLOLU1201
+  ( 1 /DriverEnable )
+  ( 2 +3V3 )
+  ( 3 +3V3 )
+  ( 4 +3V3 )
+  ( 5 N-000086 )
+  ( 6 N-000086 )
+  ( 7 /ZSTEP )
+  ( 8 /ZDIR )
+  ( 9 GND )
+  ( 10 +3V3 )
+  ( 11 /Z_1B/Dir )
+  ( 12 /Z_1A/Step )
+  ( 13 /Z_2A/Enable )
+  ( 14 /Z_2B/+ )
+  ( 15 GND )
+  ( 16 VMOT )
+ )
+ ( /4E0DE180 CONN_5 J9 ZAXIS
+  ( 1 /Z_2B/+ )
+  ( 2 /Z_2A/Enable )
+  ( 3 /Z_1A/Step )
+  ( 4 /Z_1B/Dir )
+  ( 5 GND )
+ )
+ ( /4E0B0C20 CONN_4 J10 I2C
+  ( 1 +5V )
+  ( 2 /SCL )
+  ( 3 /SDA )
+  ( 4 GND )
+ )
+ ( /4E0AF935 MBED J11 MBED_NXP
+  ( 1 GND )
+  ( 2 +5V )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 /LaserOn )
+  ( 6 /ExhaustEnable )
+  ( 7 /DriverEnable )
+  ( 8 /XHome_MCU )
+  ( 9 /SDA )
+  ( 10 /SCL )
+  ( 11 N-000053 )
+  ( 12 N-000051 )
+  ( 13 N-000054 )
+  ( 14 N-000052 )
+  ( 15 /Z+_Limit_MCU )
+  ( 16 /Z-_Limit_MCU )
+  ( 17 /YHome_MCU )
+  ( 18 N-000037 )
+  ( 19 N-000006 )
+  ( 20 /XSTEP )
+  ( 21 /LaserEnable )
+  ( 22 /LaserPWM )
+  ( 23 /XDIR )
+  ( 24 /XSTEP )
+  ( 25 /YDIR )
+  ( 26 /YSTEP )
+  ( 27 /ZDIR )
+  ( 28 /ZSTEP )
+  ( 29 /CAN_TX )
+  ( 30 /CAN_RX )
+  ( 31 N-000073 )
+  ( 32 N-000004 )
+  ( 33 /RX+ )
+  ( 34 /RX- )
+  ( 35 /TX+ )
+  ( 36 /TX- )
+  ( 37 ? )
+  ( 38 ? )
+  ( 39 /+5V_USB )
+  ( 40 +3V3 )
+ )
+ ( /4E0DE17C SJ J12 JP
+  ( 1 GND )
+  ( 2 GND )
+ )
+ ( /4E0CEE9F CONN_4 J14 ANALOG
+  ( 1 +3V3 )
+  ( 2 N-000074 )
+  ( 3 N-000075 )
+  ( 4 GND )
+ )
+ ( /4E0DDF5E SJ_3 J16 JP_3
+  ( 1 +3V3 )
+  ( 2 +3V3 )
+  ( 3 +3V3 )
+  ( 4 +3V3 )
+  ( 5 +3V3 )
+  ( 6 +3V3 )
+ )
+ ( /4E0DDF63 POLOLU1201 J17 POLOLU1201
+  ( 1 /DriverEnable )
+  ( 2 +3V3 )
+  ( 3 +3V3 )
+  ( 4 +3V3 )
+  ( 5 N-000066 )
+  ( 6 N-000066 )
+  ( 7 /YSTEP )
+  ( 8 /YDIR )
+  ( 9 GND )
+  ( 10 +3V3 )
+  ( 11 /Y_1B/Dir )
+  ( 12 /Y_1A/Step )
+  ( 13 /Y_2A/Enable )
+  ( 14 /Y_2B/+ )
+  ( 15 GND )
+  ( 16 VMOT )
+ )
+ ( /4E0DDF60 CONN_5 J18 YAXIS
+  ( 1 /Y_2B/+ )
+  ( 2 /Y_2A/Enable )
+  ( 3 /Y_1A/Step )
+  ( 4 /Y_1B/Dir )
+  ( 5 GND )
+ )
+ ( /4E0DDF64 SJ J19 JP
+  ( 1 GND )
+  ( 2 GND )
+ )
+ ( /4E0DDF28 SJ_3 J22 JP_3
+  ( 1 +3V3 )
+  ( 2 +3V3 )
+  ( 3 +3V3 )
+  ( 4 +3V3 )
+  ( 5 +3V3 )
+  ( 6 +3V3 )
+ )
+ ( /4E0DDF23 POLOLU1201 J23 POLOLU1201
+  ( 1 /DriverEnable )
+  ( 2 +3V3 )
+  ( 3 +3V3 )
+  ( 4 +3V3 )
+  ( 5 N-000087 )
+  ( 6 N-000087 )
+  ( 7 /XSTEP )
+  ( 8 /XDIR )
+  ( 9 GND )
+  ( 10 +3V3 )
+  ( 11 /X_1B/Dir )
+  ( 12 /X_1A/Step )
+  ( 13 /X_2A/Enable )
+  ( 14 /X_2B/+ )
+  ( 15 GND )
+  ( 16 VMOT )
+ )
+ ( /4E0DDF26 CONN_5 J24 XAXIS
+  ( 1 /X_2B/+ )
+  ( 2 /X_2A/Enable )
+  ( 3 /X_1A/Step )
+  ( 4 /X_1B/Dir )
+  ( 5 GND )
+ )
+ ( /4E0DDF22 SJ J25 JP
+  ( 1 GND )
+  ( 2 GND )
+ )
+ ( /4E0DFD81 CONN_4 J27 OUTPUT
+  ( 1 N-000024 )
+  ( 2 N-000005 )
+  ( 3 N-000088 )
+  ( 4 GND )
+ )
+ ( /4E0E12DD SIL-3-noarrow J28 VSENSOR
+  ( 1 +5V )
+  ( 2 N-000024 )
+  ( 3 VCPU )
+ )
+ ( /4E0B28C2 CONN_4 J29 INPUT12
+  ( 1 /Vsensor )
+  ( 2 /Z+_Limit )
+  ( 3 /Z-_Limit )
+  ( 4 GND )
+ )
+ ( /4E0B28EE CONN_4 J34 INPUT34
+  ( 1 /Vsensor )
+  ( 2 /XHome )
+  ( 3 /YHome )
+  ( 4 GND )
+ )
+ ( /4E0B3171 CONN_4 J37 OUTPUT12
+  ( 1 N-000078 )
+  ( 2 N-000079 )
+  ( 3 N-000080 )
+  ( 4 N-000047 )
+ )
+ ( /4E0B31B4 CONN_4 J39 OUTPUT34
+  ( 1 N-000076 )
+  ( 2 N-000046 )
+  ( 3 N-000077 )
+  ( 4 N-000045 )
+ )
+ ( /4E7890F5 SIL-2 J40 JP
+  ( 1 VCPU )
+  ( 2 VMOT )
+ )
+ ( /4E998E33 SIL-3-noarrow J41 O1_SRC
+  ( 1 /LaserOn )
+  ( 2 N-000025 )
+  ( 3 /LaserEnable )
+ )
+ ( /4E998EA1 SIL-3-noarrow J42 O2_SRC
+  ( 1 /LaserPWM )
+  ( 2 N-000027 )
+  ( 3 /ExhaustEnable )
+ )
+ ( /4FC3D947 SIL-4a J43 CONN_4
+  ( 1 /Vsensor )
+  ( 2 +5V )
+  ( 3 VCPU )
+  ( 4 VMOT )
+ )
+ ( /4FCA2303 FLAT-12 P1 FLATCONN
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 /Vsensor )
+  ( 4 /YHome )
+  ( 5 /XHome )
+  ( 6 GND )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 /X_1A/Step )
+  ( 10 /X_1B/Dir )
+  ( 11 /X_2B/+ )
+  ( 12 /X_2A/Enable )
+ )
+ ( /4E0DFDAD TO220V-BCE Q1 TIP110
+  ( B N-000026 )
+  ( C N-000005 )
+  ( E GND )
+ )
+ ( /4E0DFD48 TO220V-BCE Q2 TIP110
+  ( B N-000028 )
+  ( C N-000088 )
+  ( E GND )
+ )
+ ( /4E0E0A39 R4 R1 120R
+  ( 1 /CANL )
+  ( 2 /CANH )
+ )
+ ( /4E0DC385 R4 R2 1K
+  ( 1 +3V3 )
+  ( 2 N-000084 )
+ )
+ ( /4E0DC3A9 R4 R3 1K
+  ( 1 +3V3 )
+  ( 2 N-000083 )
+ )
+ ( /4E0DC48C R4 R4 1K
+  ( 1 N-000082 )
+  ( 2 +3V3 )
+ )
+ ( /4E0DF80E R4 R5 1K
+  ( 1 N-000008 )
+  ( 2 VMOT )
+ )
+ ( /4E0AEA02 R4 R7 2K2
+  ( 1 /SDA )
+  ( 2 +5V )
+ )
+ ( /4E0B0D49 R4 R8 2K2
+  ( 1 /SCL )
+  ( 2 +5V )
+ )
+ ( /4E0DBE77 R4 R10 10k
+  ( 1 N-000006 )
+  ( 2 VMOT )
+ )
+ ( /4E0DBEB5 R4 R12 1k
+  ( 1 GND )
+  ( 2 N-000006 )
+ )
+ ( /4E0DFE0E R4 R15 1k
+  ( 1 N-000025 )
+  ( 2 N-000026 )
+ )
+ ( /4E0DFE03 R4 R17 1k
+  ( 1 N-000027 )
+  ( 2 N-000028 )
+ )
+ ( /4E0B2CD5 R4 R18 10k
+  ( 1 +3V3 )
+  ( 2 /YHome_MCU )
+ )
+ ( /4E0B2CE4 R4 R19 10k
+  ( 1 +3V3 )
+  ( 2 /XHome_MCU )
+ )
+ ( /4E0B2CEC R4 R21 10k
+  ( 1 +3V3 )
+  ( 2 /Z-_Limit_MCU )
+ )
+ ( /4E0B2CED R4 R22 10k
+  ( 1 +3V3 )
+  ( 2 /Z+_Limit_MCU )
+ )
+ ( /4E0B2871 R4 R23 1K
+  ( 1 N-000041 )
+  ( 2 /Z+_Limit )
+ )
+ ( /4E0B287A R4 R24 1K
+  ( 1 N-000042 )
+  ( 2 /Z-_Limit )
+ )
+ ( /4E0B287C R4 R26 1K
+  ( 1 N-000043 )
+  ( 2 /XHome )
+ )
+ ( /4E0B2880 R4 R27 1K
+  ( 1 N-000044 )
+  ( 2 /YHome )
+ )
+ ( /4E0B30D5 R4 R28 330R
+  ( 1 N-000081 )
+  ( 2 +3V3 )
+ )
+ ( /4E0B30D4 R4 R29 330R
+  ( 1 N-000048 )
+  ( 2 +3V3 )
+ )
+ ( /4E0DF93F R4 R30 1k
+  ( 1 +5V )
+  ( 2 N-000007 )
+ )
+ ( /4E0B30D3 R4 R31 330R
+  ( 1 N-000049 )
+  ( 2 +3V3 )
+ )
+ ( /4E0B30D2 R4 R32 330R
+  ( 1 N-000050 )
+  ( 2 +3V3 )
+ )
+ ( /4FC3E8A7 R4 R33 1K
+  ( 1 N-000006 )
+  ( 2 N-000075 )
+ )
+ ( /4FC3F726 R4 R34 100
+  ( 1 N-000037 )
+  ( 2 N-000074 )
+ )
+ ( /4E0DBB68 8DIP300-ELL U1 65HVD251
+  ( 1 /CAN_TX )
+  ( 2 GND )
+  ( 3 +5V )
+  ( 4 /CAN_RX )
+  ( 5 ? )
+  ( 6 /CANL )
+  ( 7 /CANH )
+  ( 8 GND )
+ )
+ ( /4E0B10C0 HIROSE_DM1B-DSF-PEJ_MOLEX_502774-0891 U2 SDCARD
+  ( 1 N-000052 )
+  ( 2 N-000053 )
+  ( 3 GND )
+  ( 4 +3V3 )
+  ( 5 N-000054 )
+  ( 6 GND )
+  ( 7 N-000051 )
+  ( 8 ? )
+  ( 9 ? )
+ )
+ ( /4E0AFEC4 TO220V-123 U3 7805
+  ( 1 VCPU )
+  ( 2 GND )
+  ( 3 +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component Q1
+ TO92-EBC
+$endlist
+$component Q2
+ TO92-EBC
+$endlist
+$component R1
+ R*
+$endlist
+$component R2
+ R*
+$endlist
+$component R3
+ R*
+$endlist
+$component R4
+ R*
+$endlist
+$component R5
+ R*
+$endlist
+$component R7
+ R*
+$endlist
+$component R8
+ R*
+$endlist
+$component R10
+ R*
+$endlist
+$component R12
+ R*
+$endlist
+$component R15
+ R*
+$endlist
+$component R17
+ R*
+$endlist
+$component R18
+ R*
+$endlist
+$component R19
+ R*
+$endlist
+$component R21
+ R*
+$endlist
+$component R22
+ R*
+$endlist
+$component R23
+ R*
+$endlist
+$component R24
+ R*
+$endlist
+$component R26
+ R*
+$endlist
+$component R27
+ R*
+$endlist
+$component R28
+ R*
+$endlist
+$component R29
+ R*
+$endlist
+$component R30
+ R*
+$endlist
+$component R31
+ R*
+$endlist
+$component R32
+ R*
+$endlist
+$component R33
+ R*
+$endlist
+$component R34
+ R*
+$endlist
+$endfootprintlist
+}

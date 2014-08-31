@@ -1,0 +1,83 @@
+ref	value	footprint	Field1	Field2	Field3	Field4	Field5	Field6	Field7	Field8
+C1	100nF	C_CER								
+C2	100nF	C_CER								
+C3	100nF	C_CER								
+C4	1000uF	CCAP_5MM								
+C5	100nF	C_CER								
+C6	100uF	CCAP_3.5MM								
+C7	22nF	C_CER								
+C8	100nF	C_CER								
+C9	100uF	C1V7HF								
+C10	100uF	C1V7HF								
+C11	100uF	C1V7HF								
+CAN1	Molex 95501-2641	RJ12_MOLEX_95501-2641	Molex	95501-2641						
+D1	LEDR	LED-3MM								
+D2	LEDY	LED-3MM								
+D3	LEDG	LED-3MM								
+H1	MOUNT_HOLE	HOLE_3MM								
+H2	MOUNT_HOLE	HOLE_3MM_OVAL								
+H3	MOUNT_HOLE	HOLE_3MM								
+H4	MOUNT_HOLE	HOLE_3MM								
+IC1	KB847	16DIP300-ELL	2001656	619-2026						
+IC2	KB847	16DIP300-ELL								
+J1	USB-A	con-usb-USB-A-H								
+J3	USBPWR	SJ								
+J4	MAGJACK	RJ45_HALO_HFJ11	MAGJACK	SI-60002-F	1137981	741-8477				
+J5	CONN_3	CONN_3								
+J7	JP_3	SJ_3								
+J8	Pololu 1182 (A4988)	POLOLU1201	Pololu 1182							
+J9	ZAXIS	CONN_5								
+J10	I2C	CONN_4	1234	5678						
+J11	MBED NXP	MBED	1761179	703-9238						
+J12	JP	SJ								
+J14	ANALOG	CONN_4								
+J16	JP_3	SJ_3								
+J17	Pololu 1182 (A4988)	POLOLU1201	Pololu 1182							
+J18	YAXIS	CONN_5								
+J19	JP	SJ								
+J22	JP_3	SJ_3								
+J23	Pololu 1182 (A4988)	POLOLU1201	Pololu 1182							
+J24	XAXIS	CONN_5								
+J25	JP	SJ								
+J27	OUTPUT	CONN_4								
+J28	VSENSOR	SIL-3-noarrow								
+J29	INPUT12	CONN_4								
+J34	INPUT34	CONN_4								
+J37	OUTPUT12	CONN_4								
+J39	OUTPUT34	CONN_4								
+J40	JP	SIL-2								
+J41	O1_SRC	SIL-3-noarrow								
+J42	O2_SRC	SIL-3-noarrow								
+J43	CONN_4	SIL-4a								
+P1	FLATCONN	FLAT-12								
+Q1	TIP110	TO220V-BCE								
+Q2	TIP110	TO220V-BCE								
+R1	120R	R4								
+R2	1K	R4								
+R3	1K	R4								
+R4	1K	R4								
+R5	1K	R4								
+R7	2K2	R4								
+R8	2K2	R4								
+R10	10k	R4								
+R12	1k	R4								
+R15	1k	R4								
+R17	1k	R4								
+R18	10k	R4								
+R19	10k	R4								
+R21	10k	R4								
+R22	10k	R4								
+R23	1K	R4								
+R24	1K	R4								
+R26	1K	R4								
+R27	1K	R4								
+R28	330R	R4								
+R29	330R	R4								
+R30	1k	R4								
+R31	330R	R4								
+R32	330R	R4								
+R33	1K	R4								
+R34	100	R4								
+U1	65HVD251	8DIP300-ELL								
+U2	Hirose DM1B-DSF-PEJ(82) or Molex 502774-0891	HIROSE_DM1B-DSF-PEJ_MOLEX_502774-0891	Hirose/Molex	DM1B-DSF-PEJ(82)/502774-0891						
+U3	7805	TO220V-123								
