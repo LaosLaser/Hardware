@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = do 12 feb 2015 16:30:31 CET
+
+BeginCmp
+TimeStamp = /54DC8A33;
+Reference = C1;
+ValeurCmp = CAP_POL;
+IdModule  = CCAP_3.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC8AAD;
+Reference = C2;
+ValeurCmp = CAP_POL;
+IdModule  = CCAP_3.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC8ABC;
+Reference = C3;
+ValeurCmp = CAP_POL;
+IdModule  = CCAP_3.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC8ACB;
+Reference = C4;
+ValeurCmp = CAP_POL;
+IdModule  = CCAP_3.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC7A1C;
+Reference = F1;
+ValeurCmp = JP_3;
+IdModule  = SJ_3A;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC7A2B;
+Reference = F2;
+ValeurCmp = JP_3;
+IdModule  = SJ_3A;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC7A3A;
+Reference = F3;
+ValeurCmp = JP_3;
+IdModule  = SJ_3A;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC7A49;
+Reference = F4;
+ValeurCmp = JP_3;
+IdModule  = SJ_3A;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCA638;
+Reference = H1;
+ValeurCmp = MOUNT_HOLE;
+IdModule  = HOLE_3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCA647;
+Reference = H2;
+ValeurCmp = MOUNT_HOLE;
+IdModule  = HOLE_3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCA656;
+Reference = H3;
+ValeurCmp = MOUNT_HOLE;
+IdModule  = HOLE_3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCA665;
+Reference = H4;
+ValeurCmp = MOUNT_HOLE;
+IdModule  = HOLE_3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC79BB;
+Reference = J1;
+ValeurCmp = POLOLU1201;
+IdModule  = POLOLU1201;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC79CA;
+Reference = J2;
+ValeurCmp = POLOLU1201;
+IdModule  = POLOLU1201;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC79D9;
+Reference = J3;
+ValeurCmp = POLOLU1201;
+IdModule  = POLOLU1201;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC79E8;
+Reference = J4;
+ValeurCmp = POLOLU1201;
+IdModule  = POLOLU1201;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC9932;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = CONN_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC9439;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = CONN_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC82A6;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = CONN_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC8297;
+Reference = P4;
+ValeurCmp = CONN_4;
+IdModule  = CONN_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC8288;
+Reference = P5;
+ValeurCmp = CONN_4;
+IdModule  = CONN_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DC8279;
+Reference = P6;
+ValeurCmp = CONN_4;
+IdModule  = CONN_4;
+EndCmp
+
+EndListe
